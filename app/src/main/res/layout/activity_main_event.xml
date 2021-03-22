@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<RelativeLayout
+    android:background="@color/colorPrimary3Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_arrow_back_white_48dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+        <TextView
+            android:layout_marginTop="24dp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="@string/ch_ng_tr_nh_khuy_n_m_i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/relative_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/step"
+                card_view:cardElevation="1dp"
+                card_view:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:background="@color/colorSecondaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/step0"
+                        android:text="Mời thêm bạn, nhận thêm DT"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/s24" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Giới thiệu Wego cho bạn bè ngay hôm nay để được nhận ngay 5000 DT cho bạn và thêm 5000 DT cho người được giới thiệu. Không giới hạn số lần tham gia mời bạn bè, giới thiệu càng nhiều, cơ hội nhận thưởng càng nhiều."
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/s16" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/step"
+                card_view:cardElevation="1dp"
+                card_view:cardUseCompatPadding="true">
+
+
+                <LinearLayout
+                    android:background="@color/colorSecondaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/step0"
+                        android:text="Đi càng nhiều, càng tiết kiệm"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/s24" />
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/step2"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_saving"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Đi 10 chuyến nhận ngay   5000 DT."
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/s16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/step1"
+                        android:text="Đi 30 chuyến nhận ngay 10000 DT."
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/s16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/step1"
+                        android:text="Đi 90 chuyến nhận ngay 20000 DT."
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/s16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Đặc biệt tích lũy càng nhiều chuyến đi và số sao càng cao, chi phí dịch vụ cho mỗi chuyến đi của bạn sẽ càng thấp, tối thiểu chỉ còn 5% phí dịch vụ."
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/s16" />
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
+
+
+
+

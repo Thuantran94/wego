@@ -1,0 +1,459 @@
+<resources>
+    <string name="app_name" translatable="false">WeGo</string>
+
+    <string name="vtcpay_appid" translatable="false">500008024</string>
+    <string name="vtcpay_account" translatable="false">0988345395</string>
+    <string name="vtcpay_mk" translatable="false">nmt123456</string>
+    <string name="mapbox_api_key" translatable="false">pk.eyJ1IjoiaG9haXRodWFuOTQiLCJhIjoiY2p1M3NuOWFoMG9jejQxbzV2eDNtbm4yaCJ9.kfaayahYzva6w2Ftpi_z0A</string>
+    <string name="facebook_app_id" translatable="false">745706189184468</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb745706189184468</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <string name="Logo" translatable="false"> WEGO</string>
+    <string name="phone_region_id" translatable="false">+84</string>
+    <string name="support_email" translatable="false">wego@asia.com</string>
+    <string name="support_phone" translatable="false">+33763133710</string>
+
+    <string name="wego_car_sharing_service">Wego Car-sharing</string>
+    <string name="login_yor_account">ĐĂNG NHẬP TÀI KHOẢN</string>
+    <string name="signup_yor_account">ĐĂNG KÍ TÀI KHOẢN MỚI</string>
+    <string name="Login"> Đăng Nhập</string>
+    <string name="Signup">Đăng Ký</string>
+    <string name="LoginFacebook">Tiếp tục với Facebook </string>
+    <string name="LoginEmail"> Đăng nhập bằng Email </string>
+    <string name="textOr"> Hoặc đăng nhập bằng </string>
+    <string name="hint_id"> Số điện thoại</string>
+    <string name="hint_password"> Mật khẩu</string>
+    <string name="hint_password_encord"> Nhập lại mật khẩu</string>
+    <string name="hint_login">Số điện thoại</string>
+
+    <string name="textTBDN"> Đăng nhập thành công</string>
+    <string name="Forgotpass"> Quên mật khẩu?</string>
+    <string name="Changepass"> Thay đổi mật khẩu</string>
+    <string name="CurrentPass"> Mật khẩu hiện tại</string>
+    <string name="Newpass">Nhập mật khẩu mới</string>
+    <string name="Newpass_encord"> Nhập lại mật khẩu mới</string>
+    <string name="Createnewaccount"> <u>Tạo một tài khoản mới</u>.</string>
+    <string name="InforAcc"> Thông Tin Tài Khoản</string>
+    <string name="InforAcc1"> Thông Tin Tài Khoản</string>
+    <string name="InforProfile"> Thông tin cá nhân</string>
+    <string name="InforPa"> Thông Tin Hành Khách</string>
+    <string name="InforCar"> Thông tin xe</string>
+    <string name="TypeCar"> Hãng xe</string>
+    <string name="NameCar"> Tên xe</string>
+    <string name="YearCar"> Năm sản xuất</string>
+    <string name="ColorCar"> Màu sắc</string>
+    <string name="Infor"> Thông tin </string>
+    <string name="version"> Phiên bản 1.0 </string>
+    <string name="Share"> Chia sẻ </string>
+    <string name="Exit"> Đăng xuất </string>
+    <string name="Term"> Điều Khoản </string>
+    <string name="PolicyTerm"><u>các chính sách và điều khoản</u>.</string>
+    <string name="PolicyTerm1">Các chính sách và điều khoản sử dụng.</string>
+    <string name="AcceptCondition"> Đồng ý các điều khoản sử dụng </string>
+    <string name="LoginSuccess">Đăng nhập thành công</string>
+    <string name="LoginFail">Đăng nhập thất bại</string>
+
+
+    <string name="fillemail"> Điền địa chỉ email của bạn</string>
+    <string name="Submit"> Gửi yêu cầu</string>
+    <string name="BackLogin"> Về màn hình đăng nhập </string>
+    <string name="Fullname"> Họ và Tên </string>
+    <string name="Male"> Nam </string>
+    <string name="Female"> Nữ </string>
+
+
+    <string name="Review"> Đánh giá \  </string>
+    <string name="points"> \ DT  </string>
+    <string name="Yes"> Có </string>
+    <string name="yes"> có </string>
+    <string name="No"> Không </string>
+    <string name="err"> Lỗi!</string>
+    <string name="remove">Xóa</string>
+    <string name="validate">xác nhận</string>
+    <string name="Validate">Xác nhận</string>
+    <string name="xac_nhan"> Xác Nhận</string>
+    <string name="Accept"> Đồng ý </string>
+    <string name="Accept1"> Chấp nhận </string>
+    <string name="Continue"> Tiếp tục</string>
+    <string name="An">Ẩn</string>
+    <string name="Gui">Gửi</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="Close">Đóng </string>
+    <string name="Cancel1">Hủy </string>
+    <string name="Cancel2">HUỶ </string>
+
+    <string name="connectGPSfail">GPS đã tắt!</string>
+    <string name="defaultPoint"> Vui lòng bật định vị để tiếp tục!</string>
+    <string name="connectfail"> Kết nối thất bại!</string>
+    <string name="errorconnect"> Lỗi kết nối!</string>
+    <string name="invalidephonenumber"> Không thể xác nhận số điện thoại này!</string>
+    <string name="missfield"> Thông tin chưa đầy đủ, vui lòng kiểm tra lại!</string>
+    <string name="tooshor"> Vui lòng nhập nội dung tin nhắn ít nhất 10 kí tự! </string>
+    <string name="tooshor1"> Vui lòng nhập nội dung! </string>
+    <string name="signupsuccess"> Tài khoản đã được tạo thành công</string>
+    <string name="veryfisuccess"> Xác nhận thành công!</string>
+    <string name="signupfail"> Tạo tài khoản thất bại!</string>
+    <string name="verifyfail"> Mã xác nhận không chính xác!</string>
+    <string name="inputpasswordfail">  Mật khẩu nhập vào không chính xác!</string>
+    <string name="loginfial">  Tài khoản hoặc mật khẩu không chính xác!</string>
+    <string name="loginfial1">  Đăng nhập thất bại \</string>
+    <string name="loginsuccess">  Đăng nhập thành công \</string>
+    <string name="Checkinternet"> Không thể kết nối Internet!</string>
+    <string name="changedinfosuccess"> Thay đổi thông tin thành công!</string>
+    <string name="changedinfofail"> Thay đổi thông tin thất bại!</string>
+    <string name="acceptcodition">Vui lòng đồng ý các điều khoản sử dụng!</string>
+    <string name="emptygender">Bạn chưa chọn giới tính!</string>
+    <string name="invalide_name">Tên không hợp lệ!</string>
+    <string name="invalide_email">Địa chỉ email không hợp lệ!</string>
+    <string name="invalide_phone">Số điện thoại không hợp lệ!</string>
+    <string name="invalide_pass">Mật khẩu không chính xác!</string>
+    <string name="requestenablelocation"> Ứng dụng yêu cầu bật định vị trên thiết bị của bạn</string>
+    <string name="enablelocation"> Bật định vị</string>
+    <string name="mxn">Mã xác nhận của bạn là gì?</string>
+    <string name="send_code">Một mã xác nhận đã được gửi đến số điện thoại \</string>
+
+    <string name="h_nh_kh_ch">Hành khách</string>
+    <string name="t_i_x">Tài xế</string>
+    <string name="b_n_c_th_thay">Không hỏi lại</string>
+    <string name="chonj">Bạn sẽ chọn gì hôm nay?</string>
+    <string name="xin_ch_o">Xin chào, \ </string>
+    <string name="morning">Chào buổi sáng, \ </string>
+    <string name="morning1">Hi,</string>
+    <string name="mid">Chào buổi trưa, \ </string>
+    <string name="mid1">Hi, </string>
+    <string name="afternoon">Chào buổi chiều, \ </string>
+    <string name="evening">Chào buổi tối, \ </string>
+
+
+    <string name="booknow">  Đi ngay bây giờ </string>
+    <string name="now">  Ngay bây giờ </string>
+    <string name="booklater"> Đặt chuyến trước </string>
+    <string name="booklater1"> Chọn thời gian </string>
+    <string name="Cancel">Hủy chuyến</string>
+    <string name="Cance_choose">Huỷ lựa chọn?</string>
+    <string name="Apply">Áp dụng </string>
+    <string name="Addtrip">Thêm Chuyến Đi</string>
+    <string name="Adddepart">Xác nhận điểm xuất phát</string>
+    <string name="Adddesti">Xác nhận điểm đến </string>
+    <string name="Currentlocation">Vị trí hiện tại</string>
+    <string name="VND" translatable="false"> \ VND</string>
+    <string name="Person">\ Người</string>
+    <string name="person">\ người</string>
+    <string name="SelectDay"> Chọn ngày</string>
+    <string name="SelectTime"> Chọn thời gian:</string>
+    <string name="SelectPerson"> Số người</string>
+
+    <string name="departday">\ Chuyến đi ngày \ </string>
+    <string name="Until">\ Còn \</string>
+    <string name="day">\ d \</string>
+    <string name="Day">\ Ngày \</string>
+    <string name="Day1">\ Ngày đi \ </string>
+    <string name="attime">\ lúc \</string>
+    <string name="Time">\ Thời gian: \</string>
+    <string name="showstreet">\ Xem chỉ đường \</string>
+    <string name="showtb">\ Hiện thông tin \</string>
+    <string name="finddr">\ Đang tìm tài xế… \</string>
+
+
+    <string name="addressfail"> Không thể xác định vị trí này!</string>
+    <string name="routefail"> Không thể xác định được tuyến đường này!</string>
+    <string name="timefail"> Thời gian không hợp lệ!</string>
+    <string name="timefail1"> Thời gian đặt trước cho phép tối thiểu là 60 phút đến tối đa 5 ngày.</string>
+    <string name="timefail2"> Vui lòng chọn thời gian.</string>
+
+
+    <string name="departpoint"> Điểm xuất phát</string>
+    <string name="destinationpoint"> Địa điểm đến</string>
+    <string name="addtripsuccess"> Thêm chuyến đi thành công!</string>
+    <string name="addtripsuccess1"> Chuyến đi đã được thêm vào danh sách các chuyến đi sắp tới của bạn.</string>
+    <string name="addtripfail"> Thêm chuyến đi thất bại!</string>
+
+    <string name="removed">Đã xóa!</string>
+    <string name="xacnhanhuy">Xác nhận huỷ?</string>
+    <string name="cancle_trip">Bạn có muốn xoá chuyến đi này không?</string>
+    <string name="cancle_trip1">Phí dịch vụ sẽ không được hoàn trả cho chuyến đi này!</string>
+    <string name="deletetripsuccess"> Chuyến đi của bạn đã được hủy thành công!</string>
+    <string name="no_reuse">Bạn sẽ không thể khôi phục lại thao tác này!</string>
+    <string name="deletetripfail">  Không thể hủy chuyến đi!</string>
+    <string name="receivedTrip">  Chuyến đi này đã được nhận! </string>
+    <string name="notrip">  Không có chuyến đi nào được tìm thấy!</string>
+    <string name="notrip2">  Bạn không có chuyến đi nào!</string>
+    <string name="notrip1">  Không có hành khách nào gần bạn!</string>
+    <string name="notrip0">  Thêm lịch trình ngay để nhận thông báo khi có chuyến đi của hành khách gần bạn.</string>
+    <string name="nocurrenttrip"> Không có chuyến đi hiện tại!</string>
+    <string name="found"> Đã tìm thấy \ </string>
+    <string name="trips">  \ chuyến đi </string>
+
+    <string name="addinforcar">Thêm </string>
+    <string name="addinforcar0">Bạn chưa thêm thông tin xe!  </string>
+    <string name="addinforcar1">Truy cập vào ảnh đại diện -> chọn xe của tôi -> thêm thông tin xe. </string>
+
+
+    <string name="th_ng_tin_ng_i_l_i_xe">Thông Tin Tài Xế </string>
+    <string name="danh_s_ch_t_i_x">Danh Sách Tài Xế</string>
+    <string name="danh_s_ch_t_i_x1">Danh sách các tài xế đã chọn chuyến đi của bạn:</string>
+    <string name="l_ch_tr_nh_c_a_b_n">Lịch trình của tôi </string>
+    <string name="L_ch_tr_nh_c_a_b_n">Lịch Trình Của Tôi  </string>
+    <string name="khuy_n_m_i">Khuyến mãi</string>
+    <string name="Khuy_n_m_i">Khuyến Mãi</string>
+    <string name="thay_i_th_nh_h_nh_kh_ch">Trở thành hành khách</string>
+    <string name="t_m_xung_quanh">Tìm xung quanh</string>
+    <string name="th_m_chuy_n_i_m_i">Thêm chuyến đi</string>
+    <string name="th_m">Thêm mới</string>
+    <string name="xem_t_t_c_c_c_chuy_n_i">Xem tất cả các chuyến đi</string>
+    <string name="thay_i_th_nh_ng_i_l_i_xe">Trở thành tài xế</string>
+
+
+    <string name="danh_s_ch_chuy_n_i">Danh Sách Chuyến Đi</string>
+    <string name="chuy_n_i_s_p_t_i">Chuyến sắp tới</string>
+    <string name="Chuy_n_i_s_p_t_i">Chuyến Sắp Tới</string>
+    <string name="c_c_chuy_n_i">Chuyến đã đi</string>
+    <string name="C_c_chuy_n_i">Chuyến Đã Đi</string>
+    <string name="c_c_chuy_nnhan">Chuyến đã nhận</string>
+    <string name="th_m_m_i">Tìm kiếm</string>
+    <string name="hi_n_t_i">Hiện tại</string>
+    <string name="sms">Tin nhắn</string>
+    <string name="SMS">Tin Nhắn</string>
+    <string name="noti">Thông báo</string>
+    <string name="Gui_tin_nhan">Gửi tin nhắn</string>
+    <string name="findDr">Đang tìm tài xế…</string>
+    <string name="dangtimkiemchuyendi">Đang tìm hành khách lân cận…</string>
+    <string name="creating">Đang tạo tài khoản…</string>
+    <string name="loading">Đang tải dữ liệu…</string>
+    <string name="updating0">Đang cập nhật…</string>
+    <string name="updating">Đang kết nối đến sever…</string>
+    <string name="findroute">Đang tìm đường…</string>
+    <string name="checkingtrip">Đang kiểm tra chuyến đi…</string>
+    <string name="sendrequest">Đang gửi yêu cầu…</string>
+    <string name="findroute_sms" translatable="false"> </string>
+    <string name="no_dr_found">Không tìm thấy tài xế</string>
+    <string name="no_dr_found1">Bạn có muốn tiếp tục tìm kiếm?</string>
+    <string name="googlePlaysv">Ứng dụng yêu cầu cài đặt Google Play Service.</string>
+    <string name="addedhome" translatable="false">Thêm địa chỉ nhà thành công!</string>
+    <string name="addedwork" translatable="false">Thêm địa chỉ nơi làm việc thành công!</string>
+    <string name="addedfavorite" translatable="false">Thêm địa chỉ yêu thich thành công!</string>
+    <string name="TRIP_PASSENGER" translatable="false">TRIP_PASSENGER</string>
+    <string name="retryerr">Đã xảy ra lỗi, vui lòng thử lại!</string>
+    <string name="da_co_nguoi_nhan">Đã có người nhận</string>
+    <string name="da_co_nguoi_nhan1">Chuyến đi đã được nhận!</string>
+    <string name="danhan">Đã nhận </string>
+    <string name="urgent">Đi ngay bây giờ </string>
+    <string name="dang_tim">Đang tìm kiếm </string>
+    <string name="dang_cho">Đang chờ phản hồi </string>
+    <string name="dang_cho1">Yêu cầu đã được gửi, vui lòng chờ phản hồi của hành khách!</string>
+    <string name="het_han">Chuyến đi đã bị hủy! </string>
+    <string name="refunddt">\Bạn được hoàn lại \  </string>
+    <string name="finished">Đã hoàn tất\ </string>
+    <string name="tin_nhan_moi">\ tin nhắn mới</string>
+    <string name="tin_nhan">0 tin nhắn</string>
+    <string name="distance">\ Khoảng cách: \</string>
+    <string name="duration">\ Thời gian: \</string>
+    <string name="chuyen_di_da_nha">Danh sách các chuyến đi</string>
+    <string name="Info_trip">Thông Tin Chuyến Đi</string>
+    <string name="da_xac_nhan">Đã đánh giá</string>
+    <string name="da_report">Đã Report</string>
+    <string name="c_u_h_i_th_ng_g_p">Các câu hỏi thường gặp</string>
+    <string name="li_n_h_qua_email">Liên hệ qua Email</string>
+    <string name="g_i_cho_ch_ng_t_i">Gọi cho chúng tôi</string>
+    <string name="thao_tac_sau">Thao tác lại sau \</string>
+
+    <string name="unlocated">Vị trí chưa được định vị</string>
+    <string name="nhan_giu">Nhấn giữ biểu tượng tương ứng để thêm hoặc thay đổi.</string>
+    <string name="edit">Thay đổi</string>
+    <string name="repeat">Ngày đi:</string>
+    <string name="free">Miễn phí</string>
+    <string name="Bike">Xe máy</string>
+    <string name="Taxi" translatable="false">Taxi</string>
+    <string name="warning1">Chỉ cho phép chọn taxi đối với chuyến đi có từ 2 hàng khách trở lên.</string>
+    <string name="read_chinhsach">Vui lòng đọc kĩ các chính sách và điều khoản sử dụng của chúng tôi.</string>
+    <string name="i_u_kho_n_s_d_ng">điều khoản sử dụng</string>
+    <string name="ch_nh_s_ch">Chính sách bảo mật</string>
+    <string name="gioithieu">Về chúng tôi</string>
+    <string name="ch_nh_s_ch_amp_i_u_kho_n_s_d_ng"><![CDATA[Chính sách & điều khoản sử dụng]]></string>
+    <string name="danhgiachuyendi">Đánh giá chuyến đi</string>
+    <string name="t_i_hi_v_ng">Tôi hi vọng bạn đã có một chuyến đi tốt đẹp, hãy cho tôi biết đánh giá của bạn như thế nào?</string>
+    <string name="g_i_cho_t_i_m_t_l_i_ph_n_h_i">Gửi cho tôi một lời phản hồi:</string>
+    <string name="nh_p_n_i_dung">\ Nhập nội dung…</string>
+    <string name="nh_gi"><![CDATA[ Đánh giá & Tố cáo]]></string>
+    <string name="xacnhanyeucau">Gửi yêu cầu cho hành khách này?</string>
+    <string name="xacnhanyeucau1"> Nhận yêu cầu của tài xế này?</string>
+    <string name="xacnhanyeucautx">Sau khi bạn chấp nhận yêu cầu của tài xế này, bạn có thể nhìn thấy số điện thoại của tài xế của bạn. Bạn có thể liên lạc với anh ấy trực tiếp thông qua số điện thoại hoặc gửi cho anh ấy một tin nhắn.</string>
+    <string name="vuilongchon">Vui lòng chọn taxi nếu chuyến đi của bạn có từ 2 chỗ trống trở lên!</string>
+    <string name="saitgian">Thời gian không hợp lệ!</string>
+    <string name="limited">Số chuyến đi đặt trước của bạn đã vượt quá giới hạn.</string>
+
+
+
+
+    <string name="mo_ta">Wego là ứng dụng giúp bạn có thể kết nối và chia sẻ chuyến đi của mình với những người khác. Ứng dụng cung cấp giải pháp giúp bạn tiết kiệm thời gian, chi phí đi lại, hạn chế ùn tắc giao thông và bảo vệ môi trường.</string>
+
+    <string name="qs1" translatable="false">1. Wego hoạt động như thế nào?\n\n\n
+        Wego là một dịch vụ đi chung xe, giúp kết nối hành khách và tài xế muốn chia sẻ hành trình của họ.\n\n
+        Dưới đây là 6 bước hoạt động của ứng dụng:\n\n
+
+         1. Hành khách gửi yêu cầu cho chuyến đi của mình bằng cách thông báo chi tiết về chuyến đi (địa chỉ khởi hành và địa chỉ nơi đến, số lượng hành khách, loại phương tiện di chuyển và thời gian đi).\n
+         2. Tài xế lựa chọn chuyến đi phù hợp với lộ trình của mình và chấp nhận yêu cầu của hành khách.\n
+         3. Tài xế gặp hành khách tại điểm hẹn.\n
+         4. Hành khách nhìn thấy thời gian tiếp cận của tài xế và nhận được thông báo khi tài xế có mặt.\n
+         5. Hành khách lên xe.\n
+         6. Tại điểm đến, tài xế xác nhận \"kết thúc chuyến đi\" và hành khách chọn \"kết thúc chuyến đi và thanh toán\". </string>
+
+
+    <string name="qs2" translatable="false">2. Tại sao tôi lại chọn Wego?\n\n\n
+        Wego được thiết kế để cải thiện việc đi lại trong đô thị, đặc biệt là từ ngoại ô đến ngoại ô và ngoại ô đến trung tâm thành phố, nơi di chuyển bằng ô tô hoặc xe máy là tốt nhất.
+        Dịch vụ này được thiết kế cho bất kỳ ai muốn chia sẻ hành trình của họ một cách tiết kiệm, thân thiện và an toàn.
+        Wego có thể được sử dụng theo thời gian, cho các sự kiện đặc biệt hoặc khi bạn di chuyển thường xuyên đến nơi làm việc của mình.\n
+
+
+    </string>
+
+    <string name="qs3" translatable="false">3. Tại sao tôi cần xác nhận số điện thoại của mình?\n\n\n
+    Bạn cần phải xác nhận số điện thoại của bạn để có thể dễ dàng liên lạc với hành khách hoặc tài xế của mình khi có bất kì sự cố nào xảy ra cho chuyến đi của bạn ( như để quên hành lý trên xe, hoặc thông báo cho hành khách của bạn khi bị trễ hẹn,...)\n
+    Để đảm bảo quyền riêng tư, số điện thoại của bạn chỉ được hiển thị một lần cho hành khách hoặc tài xế đã xác nhận chuyến đi cùng với bạn.
+    </string>
+
+    <string name="qs4" translatable="false">4. Tôi là hành khách, tôi có thể đặt chuyến đi bằng cách nào?\n\n\n
+        Bạn có thể đặt các chuyến đi ngay lập tức hoặc đi theo lịch trình trước tối đa 6 ngày.\n
+        Chọn địa chỉ xuất phát của bạn, địa chỉ nơi bạn đến, số lượng hành khách tham gia chuyến đi, phương tiện di chuyển mà bạn yêu cầu (đối với chuyến đi từ 2 hành khách trở lên, phương tiện di chuyển sẽ mặc định là taxi). Bạn có thể thay đổi giá đề xuất nếu giá được đề xuất không phù hợp với bạn.\n
+        Nếu không có tài xế xuất hiện, bạn có thể tùy chọn đăng ký lại với giá cao hơn để tăng cơ hội tìm kiếm tài xế cho mình.\n
+
+    </string>
+
+    <string name="qs5" translatable="false">5. Tôi là hành khách, làm thế nào để thanh toán chi phí cho chuyến đi của tôi?\n\n\n
+        Wego hiện tại chỉ hổ trợ thanh toán bằng tiền mặt, bạn sẽ phải thanh toán trực tiếp cho tài xế vào cuối chuyến đi.
+    </string>
+
+    <string name="qs6" translatable="false">6. Tôi là tài xế, tôi có thể nhận chuyến đi bằng cách nào?\n\n\n
+        Chắc chắn rằng bạn đã cho phép ứng dụng nhận thông báo khi có chuyến đi mới, thêm các chuyến đi của bạn vào mục \"Lịch trình của tôi\" trong ứng dụng. Ứng dụng sẽ tự động thông báo tất cả các yêu cầu đi chung xe ngay lập tức có điểm xuất phát trong bánh kính từ 3 đến 5 km và các yêu cầu theo lịch trình tương ứng với các chuyến đi thông thường của bạn.
+       
+    </string>
+
+    <string name="qs7" translatable="false">7. Tại sao tôi lại phải mất phí dịch vụ khi đặt hoặc nhận chuyến đi?\n\n\n
+        Phí dịch vụ giúp hệ thống Wego có thể duy trì hoạt động. Phí dịch vụ sẽ phụ thuộc vào thời gian và khoảng cách chuyến đi của bạn, số sao và tất cả số các đánh giá mà bạn đã nhận được.\n
+        Wego đề xuất mức phí dịch vụ ban đầu là 10% cho mỗi chuyến đi. Tuy nhiên, bạn có thể giảm mức phí dịch vụ xuống chỉ còn 5% bằng cách thực hiện nhiều chuyến đi để tăng số sao và số điểm đánh giá của mình.
+
+    </string>
+
+
+    <string name="qs8" translatable="false">8. Tôi có thể chuyển từ giao diện hành khách sang tài xế và ngược lại như thế nào?\n\n\n
+        Bạn có thể chuyển sang giao diện hành khách hoặc tài xế rất đơn giản ngay trên ứng dụng bằng cách chọn \"Hành khách - Tài xế\" tại các nút nhấn phía bên phải ảnh đại diện.
+    </string>
+
+
+    <string name="qs9" translatable="false">9. Tôi muốn huỷ chuyến đi của mình?\n\n\n
+        Nếu bạn là hành khách chọn \"Các chuyến đi sắp tới\", hoặc chọn \"Lịch trình của tôi\" nếu bạn là tài xế, tiếp theo chọn chuyến đi muốn xoá và vuốt nhẹ từ phải qua trái, một thông báo được hiển thị để xác nhận yêu cầu xoá chuyến đi của bạn.\n
+        Phí dịch vụ sẽ được hoàn trả trong trường hợp chuyến đi của bạn chưa được nhận bởi bất kì tài xế nào. Trong trường hợp bạn muốn huỷ chuyến đi đã được xác nhận, xin hãy thông báo cho hành khách hoặc tài xế của bạn trước thời gian chuyến đi bắt đầu.\n
+        Dù trong bất kì trường hợp huỷ chuyến đi nào, xin vui lòng cho chúng tôi biết lý do của bạn tại wego@asia.com
+    </string>
+
+    <string name="qs10" translatable="false">10. Tôi phải làm thế nào trong trường hợp hành khách hoặc tài xế của tôi huỷ chuyến đi đột xuất?\n\n\n
+        Trong trường hợp tài xế hoặc hành khách của bạn huỷ chuyến đi vào phút cuối mà không có bất kì lý do chính đáng nào, vui lòng thông báo cho chúng tôi bằng cách chọn \"Các chuyến đã đi\", chọn chuyến đi mà hành khách hoặc tài xế của bạn đã huỷ và chọn \"Tố cáo người này\".\n
+        Tài khoản của hành khách hoặc tài xế này có thể sẽ bị khoá hoặc bị giới hạn cho các lần di chuyển tiếp theo.
+
+    </string>
+    <string name="daguiyc">Yêu cầu đã được gửi!</string>
+    <string name="daguiyc1">Tố cáo thành công!</string>
+    <string name="daguiyc2">Yêu cầu đã được gửi thành công!</string>
+    <string name="xem_t_t_c_nh_gi">Hiện tại đang có \ </string>
+    <string name="xem_t_t_c_nh_to">Xem tất cả các tố cáo \ </string>
+    <string name="cddkt">Đi ngay bây giờ</string>
+    <string name="C_u_h_i_th_ng_g_p">Câu Hỏi Thường Gặp</string>
+    <string name="t_i_kho_n">Tài khoản</string>
+    <string name="xe_c_a_t_i">Th.tin xe </string>
+    <string name="wallet">Ví của tôi</string>
+    <string name="ph_d_ch_v">Phí dịch vụ:</string>
+    <string name="ph_d_ch_vu">Phí dịch vụ \ </string>
+    <string name="chi_ph">Chi phí:</string>
+    <string name="s_h_nh_kh_ch">Số hành khách:</string>
+    <string name="ph_ng_ti_n">Phương tiện:</string>
+    <string name="svfee">Mức phí dịch vụ hiện tại là \ </string>
+    <string name="m_khuy_n_m_i">Nhập mã khuyến mãi</string>
+    <string name="nearme">Lân cận</string>
+    <string name="Nearme">Tìm Lân Cận</string>
+    <string name="emtyseats">\ ghế trống</string>
+    <string name="b_n_kh_ng_c_th_ng">Bạn không có thông báo nào!</string>
+    <string name="cdht">Chuyến Đi Hiện Tại</string>
+    <string name="themthanhcong">Bạn đã thêm thành công \</string>
+    <string name="youneed">Bạn cần \</string>
+    <string name="valico">\ DT để nhận chuyến đi này. </string>
+    <string name="b_m_v_sds">Khoảng cách tới điểm đón khách là</string>
+    <string name="maxacnha">Nhập mã xác nhận gồm 6 chữ số:</string>
+    <string name="minute">\ phút</string>
+    <string name="minute1">p trước</string>
+    <string name="minute0">vừa xong</string>
+    <string name="hour1">h trước</string>
+    <string name="s_gh_tr_ng">Số ghế trống:</string>
+    <string name="l_p_l_i_h_ng_tu_n">Lặp lại hàng tuần</string>
+    <string name="th_m_v_o_l_ch_tr_nh_c_a_t_i">Thêm vào lịch trình của tôi:</string>
+    <string name="gi_ngh">Giá đề nghị:</string>
+    <string name="dongydung">Phí \</string>
+    <string name="denhanchuyendi">\ để nhận chuyến đi này không?</string>
+    <string name="wait">Vui lòng chờ…</string>
+    <string name="changetime">Thay đổi thời gian:</string>
+    <string name="ngh_m_t_m_c_gi_m_i">Đề nghị một mức giá mới:</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="s_i_n_tho_i_ch_a_c">Số điện thoại chưa được xác nhận.</string>
+    <string name="email_ch_a_c_x_c_nh_n">Email chưa được xác nhận.</string>
+    <string name="anhkohople">Ảnh không hợp lệ!</string>
+    <string name="anhkohople1">vui lòng chọn ảnh cá nhân của bạn.</string>
+    <string name="nosms">Hộp thư rỗng!</string>
+    <string name="contactus">Liên hệ với chúng tôi</string>
+    <string name="cud">Chọn ứng dụng:</string>
+    <string name="for_any_questi">Đối với những câu hỏi không có trong danh sánh bên dưới, vui lòng liên hệ trực tiếp với chúng tôi qua địa chỉ: </string>
+    <string name="limitedadd">Địa chỉ đã bị hạn chế!</string>
+    <string name="tr_h_n_m_kh_ng_b_o_tr_c">Trễ hẹn nhưng không báo trước.</string>
+    <string name="t_ng_hu_chuy_n_i_v_o_ph_t_cu_i">Tự động huỷ chuyến đi vào phút cuối.</string>
+    <string name="l_lo_kh_c">Lý lo khác:</string>
+    <string name="report_this_person">Tố cáo</string>
+    <string name="n_u_b_n_c_v_n_v_ch">Nếu bạn có vấn đề về chuyến đi với người này, hãy cho chúng tôi biết lý do của bạn tại đây?</string>
+    <string name="review">Đánh giá</string>
+    <string name="review1"> \ đánh giá</string>
+    <string name="tocao">Tố cáo</string>
+    <string name="report00">Nhằm đảm bảo quyền lợi của bạn, Wego sẽ hoàn trả lại toàn bộ phí dịch vụ cho những chuyến đi không thành công hoặc bị trễ quá thời hẹn quy định. Tuy nhiên trong một số trường hợp vì các nguyên nhân chủ quan về thời tiết hoặc tắc nghẽn giao thông khiến việc di chuyển trở nên chậm trễ rất mong bạn có thể thông cảm.\nHãy chung tay xây dựng một cộng đồng chia sẻ hành trình lành mạnh và bền vững.</string>
+    <string name="ketthuccd">Kết thúc chuyến đi</string>
+    <string name="kethuccd1">Vui lòng đánh giá chuyến đi của bạn trước khi xoá.</string>
+    <string name="adbl">Áp Dụng Bộ Lọc</string>
+    <string name="tkbk">Tài khoản của bạn đã bị khoá.</string>
+    <string name="dtkdu">DT của bạn không đủ.</string>
+    <string name="sorry">Sorry!</string>
+    <string name="wrongcode">Code tối thiểu 6 kí tự!</string>
+    <string name="wrongcode1">Code không hợp lệ hoặc đã được sử dụng!</string>
+    <string name="codesuccess">Kích hoạt code thành công!</string>
+    <string name="bncdt">Bạn đã nhận được \</string>
+    <string name="ktdg">Không thể đánh giá!</string>
+    <string name="vmdx">Chuyến đi vừa được xoá bởi hành khách.</string>
+    <string name="hello">Xin chào \ </string>
+    <string name="toidanhanchuyendi">. Tôi đã nhận yêu cầu của bạn, hãy liên lạc với tôi ngay nhé! Đây là số điện thoại của tôi \ </string>
+    <string name="comingsoon">Sắp ra mắt!</string>
+    <string name="t_i_kho_n_hi_n_t_i">Tài khoản hiện tại</string>
+    <string name="ch_n_m_nh_gi_c_n_n_p">Chọn mệnh giá cần nạp</string>
+    <string name="ho_c_ch_n_s_l_ng_dt">Hoặc chọn số lượng DT</string>
+    <string name="ch_n_c_ng_thanh_to_n_qu_c_t">Chọn cổng thanh toán quốc tế</string>
+    <string name="thanh_to_n_qua_th_atm">Thanh toán qua thẻ ATM</string>
+    <string name="b_n_k_nh_t">Bán kính từ \ </string>
+    <string name="den">\ đến \ </string>
+    <string name="kho_ng_c_ch_t_i_thi_u">Khoảng cách tối thiểu</string>
+    <string name="kho_ng_c_ch_t_i_a">Khoảng cách tối đa</string>
+    <string name="tu">\ Từ \ </string>
+    <string name="n_c_c_chuy_n_i_c_nh_n">Ẩn các chuyến đi đã được nhận</string>
+    <string name="th_ng_tin_ng_d_ng">Thông tin ứng dụng</string>
+    <string name="nh_p_tin_nh_n">Nhập tin nhắn…</string>
+    <string name="diachihanche">Ứng dụng hiện tại chỉ hỗ trợ ở khu vực tp Hồ Chí Minh và một số khu vực lân cận.</string>
+    <string name="camonnhanxet">Cám ơn bạn đã nhận xét!</string>
+    <string name="nh_gi_ng_d_ng">Đánh giá ứng dụng</string>
+    <string name="tinnhandaxa">cuộc trò chuyện đã bị xoá</string>
+    <string name="chia_s_ngay">Chia Sẻ Ngay!</string>
+    <string name="m_chia_s_c_"> Mã chia sẻ của bạn </string>
+    <string name="xem_chi_ti_t"> <u>thêm</u>.</string>
+
+    <string name="xac_nhan_finish_pay">Kết Thúc Chuyến Đi và Thanh Toán</string>
+    <string name="xac_nhan_finish">Kết Thúc Chuyến Đi</string>
+    <string name="pleasewaitabout">Vui lòng chờ trong \ </string>
+    <string name="thaotackhople">Lựa chọn không hợp lệ!</string>
+    <string name="themttxe">Để tiếp tục, vui lòng cung cấp cho chúng tôi biết thông tin xe của bạn.</string>
+    <string name="ch_ng_tr_nh_khuy_n_m_i">Chương Trình Khuyến Mãi</string>
+
+
+</resources>

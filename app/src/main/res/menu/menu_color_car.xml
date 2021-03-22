@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="màu đen"
+        android:id="@+id/color_black"
+        />
+    <item android:title="màu xám"
+        android:id="@+id/color_grey"
+        />
+    <item android:title="màu trắng"
+        android:id="@+id/color_white"
+        />
+    <item android:title="màu đỏ"
+        android:id="@+id/color_red"
+        />
+    <item android:title="màu đỏ đậm"
+        android:id="@+id/color_red_dark"
+        />
+    <item android:title="màu nâu"
+        android:id="@+id/color_brown"
+        />
+
+    <item android:title="màu cam"
+        android:icon="@drawable/button_orange_background"
+        android:id="@+id/color_orange"
+        />
+    <item android:title="màu vàng"
+        android:id="@+id/color_yellow"
+        />
+    <item android:title="màu xanh dương"
+        android:id="@+id/color_blue"
+        />
+    <item android:title="màu tím"
+        android:id="@+id/color_green"
+        />
+
+</menu>

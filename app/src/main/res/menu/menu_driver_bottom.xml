@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:title="@string/nearme"
+        android:id="@+id/btDemandes"
+        android:icon="@drawable/ic_searchd"
+        />
+    <item android:title="@string/sms"
+        android:id="@+id/sms"
+        android:icon="@drawable/ic_chatqq"
+        />
+
+    <item android:title="@string/hi_n_t_i"
+        android:id="@+id/btEncours"
+        android:icon="@drawable/ic_road"
+        />
+</menu>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/step"
+        android:layout_marginStart="@dimen/step1"
+        android:layout_marginEnd="@dimen/step1"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/t_i_kho_n_hi_n_t_i"
+
+            />
+
+        <TextView
+            android:drawableStart="@drawable/ic_payment_orange_32dp"
+            android:drawablePadding="@dimen/step"
+            android:layout_gravity="center"
+            android:id="@+id/mwallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/s24"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="0 DT"
+            android:padding="@dimen/step1"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/step"
+            android:text="@string/ch_n_m_nh_gi_c_n_n_p"
+
+            />
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/r50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/step0"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/step"
+                android:text="50.000 DT"
+                android:background="@drawable/background_textview"
+                />
+
+            <TextView
+
+                android:id="@+id/r100"
+                android:layout_toEndOf="@id/r50"
+                android:layout_marginStart="@dimen/step0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="@dimen/step"
+                android:text="100.000 DT"
+                android:padding="@dimen/step0"
+                android:background="@drawable/background_textview"
+                />
+
+
+            <TextView
+
+                android:id="@+id/r200"
+                android:layout_toEndOf="@id/r100"
+                android:layout_marginStart="@dimen/step0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/step0"
+                android:textColor="@color/colorPrimary"
+                android:text="200.000 DT"
+                android:layout_marginTop="@dimen/step"
+                android:background="@drawable/background_textview"
+                />
+
+
+
+        </RelativeLayout>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/step"
+            android:layout_marginBottom="@dimen/step0"
+            android:textAlignment="center"
+            android:text="@string/textOr"
+
+            />
+
+        <EditText
+            android:id="@+id/edPoints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="6"
+            android:padding="@dimen/step"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/background_edittext"
+            android:textAlignment="center"
+            android:paddingStart="@dimen/step"
+            android:hint="1000 DT = 1000 VND"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/step"
+            android:layout_marginBottom="@dimen/step"
+            android:textSize="@dimen/s16"
+            android:text="@string/ch_n_c_ng_thanh_to_n_qu_c_t"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/visa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_visa"
+                />
+
+            <ImageView
+                android:id="@+id/mastercard"
+                android:layout_marginStart="@dimen/step1"
+                android:layout_toEndOf="@id/visa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_mastercard"
+                />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/atm"
+            android:layout_marginTop="@dimen/step"
+            android:layout_marginBottom="@dimen/step2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:text="@string/thanh_to_n_qua_th_atm"
+            android:background="@drawable/button_orange_background"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

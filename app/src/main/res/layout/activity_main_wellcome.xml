@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:alpha="0.9"
+        android:id="@+id/view"
+        android:background="@drawable/background_gradient_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btDriver"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:text="@string/t_i_x"
+                android:background="@drawable/button_orange_background"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/step1"
+                android:layout_marginRight="@dimen/step1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_above="@+id/btDriver"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/step1"
+                android:textAllCaps="false"
+                android:id="@+id/btPassenger"
+                android:textSize="18sp"
+                android:background="@drawable/button_orange_background"
+                android:textColor="@android:color/white"
+                android:text="@string/h_nh_kh_ch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:id="@+id/twhello00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/twhello11"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/step1"
+                android:layout_marginStart="@dimen/step1"
+                android:text="@string/xin_ch_o"
+                android:typeface="monospace"
+
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/twhello"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/twhello11"
+                android:layout_toEndOf="@+id/twhello00"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/step1"
+                android:layout_marginEnd="@dimen/step1"
+                android:text=" xxxxx"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/twhello11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/btPassenger"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/step1"
+                android:layout_marginRight="@dimen/step1"
+                android:layout_marginLeft="@dimen/step1"
+                android:text="@string/chonj"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:textColor="@android:color/white"
+                />
+
+
+
+
+            <CheckBox
+                android:id="@+id/cbcheck"
+                android:layout_below="@+id/btDriver"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/s14"
+                app:buttonTint="@color/white"
+                android:text="@string/b_n_c_th_thay"
+                android:layout_margin="@dimen/step1"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+            <com.q42.android.scrollingimageview.ScrollingImageView
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/scrolling_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:speed="1dp"
+                app:src="@drawable/scrolling_background" />
+
+            <com.q42.android.scrollingimageview.ScrollingImageView
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/scrolling_foreground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:speed="2dp"
+                app:src="@drawable/scrolling_foreground" />
+
+
+            <com.q42.android.scrollingimageview.ScrollingImageView
+                android:layout_alignParentBottom="true"
+                android:id="@+id/car1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:speed="-0.02dp"
+                app:src="@drawable/scrolling_car" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_car32" />
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

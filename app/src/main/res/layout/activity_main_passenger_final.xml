@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <include
+                layout="@layout/layout_driver_info1"
+                android:layout_margin="1dp"
+                android:id="@+id/layouttrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <FrameLayout
+                android:id="@+id/contentSMS"
+                android:layout_below="@id/layouttrip"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            </FrameLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/finished"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/button_orange_background"
+        android:text="@string/xac_nhan_finish_pay"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:textColor="@android:color/white" />
+
+
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_red_background"
+        android:text="@string/report_this_person"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:textColor="@android:color/white" />
+
+    <RadioGroup
+        android:layout_margin="0.5dp"
+        android:id="@+id/stSMSpa"
+        android:layout_gravity="bottom"
+        android:background="@drawable/background_toggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/close"
+            android:background="@drawable/background_toggle_widget_bounded"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Close"
+            android:paddingEnd="@dimen/step2"
+            android:paddingStart="0dp"
+            android:textColor="@drawable/button_text"
+            android:textSize="@dimen/s14"
+            app:buttonTint="@android:color/transparent" />
+
+        <RadioButton
+            android:id="@+id/sendsms"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/background_toggle_widget"
+            android:gravity="center"
+            android:text="@string/Gui_tin_nhan"
+            android:paddingEnd="@dimen/step2"
+            android:paddingStart="0dp"
+            android:textColor="@drawable/button_text"
+            android:textSize="@dimen/s14"
+            app:buttonTint="@android:color/transparent" />
+    </RadioGroup>
+
+</FrameLayout>
+
+
+

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.Main.ShowReviewActivity">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative_toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/backrw"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_arrow_back_white_48dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+        <TextView
+            android:layout_marginTop="24dp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="@string/nh_gi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+            android:layout_below="@+id/relative_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:orientation="vertical">
+
+
+        <RadioGroup
+
+            android:layout_margin="0.5dp"
+            android:id="@+id/buttonre"
+            android:background="@drawable/background_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/review"
+                android:background="@drawable/background_toggle_widget_bounded"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/review"
+                android:textColor="@drawable/button_text"
+                android:textSize="@dimen/s14"
+                android:paddingEnd="@dimen/step2"
+                android:paddingStart="0dp"
+                app:buttonTint="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/report"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_toggle_widget"
+                android:gravity="center"
+                android:text="@string/tocao"
+                android:textColor="@drawable/button_text"
+                android:textSize="@dimen/s14"
+                android:paddingEnd="@dimen/step2"
+                android:paddingStart="0dp"
+                app:buttonTint="@android:color/transparent" />
+        </RadioGroup>
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_rate"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/step0" />
+
+
+
+
+            <TextView
+                android:id="@+id/namerw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Ho va Ten"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:layout_marginTop="@dimen/step0" />
+
+
+            <LinearLayout
+                android:layout_margin="@dimen/step0"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:orientation="horizontal"
+                android:id="@+id/pdanhgia"
+                android:layout_gravity="center"
+                >
+
+                <ImageView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_calltx"/>
+
+                <TextView
+                    android:id="@+id/ntriptotal"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:maxLength="3"
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorOrange"
+                    android:text="0"/>
+
+
+                <ImageView
+                    android:layout_marginStart="@dimen/step0"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star_orange"/>
+
+                <TextView
+                    android:id="@+id/npdanhgia"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+
+                    android:maxLength="3"
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorOrange"
+                    android:text="0.0"/>
+
+
+                <ImageView
+                    android:layout_marginStart="@dimen/step0"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_rating_orange"/>
+
+                <TextView
+                    android:textColor="@color/colorOrange"
+                    android:id="@+id/ndanhgia"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"/>
+
+
+                <ImageView
+                    android:layout_marginStart="@dimen/step0"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_sad1"/>
+
+                <TextView
+                    android:textColor="@color/colorOrange"
+                    android:id="@+id/nreport"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/xem"
+                android:layout_marginStart="@dimen/step"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="@string/xem_t_t_c_nh_gi"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp" />
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginStart="@dimen/step"
+                android:layout_marginEnd="@dimen/step"
+                android:id="@+id/lwrw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>

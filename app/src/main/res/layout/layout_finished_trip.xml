@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_rate"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/step2" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="@string/t_i_hi_v_ng"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="10dp" />
+
+
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:layout_marginTop="10dp"
+                android:id="@+id/rating"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1"
+                android:rating="4" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="@string/g_i_cho_t_i_m_t_l_i_ph_n_h_i"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="18dp"/>
+
+            <EditText
+                android:id="@+id/message"
+                android:hint="@string/nh_p_n_i_dung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:gravity="top|left"
+                android:background="@drawable/border"
+                android:lines="4"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

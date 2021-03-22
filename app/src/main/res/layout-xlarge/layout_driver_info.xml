@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="@drawable/background_textview_white_orange"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_below="@+id/timeremain"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/davatar"
+        android:padding="5dp"
+
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_below="@+id/timeremain"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/photocar"
+        android:padding="5dp"
+        android:layout_toEndOf="@id/davatar"
+
+        />
+
+    <TextView
+        android:layout_marginStart="@dimen/step0"
+        android:id="@+id/dten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeremain"
+        android:layout_marginTop="2dp"
+        android:layout_toEndOf="@id/photocar"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="viewStart"
+        android:textSize="@dimen/s18"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gender"
+        android:layout_marginTop="2dp"
+        android:layout_below="@id/timeremain"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_toEndOf="@id/dten" />
+
+    <TextView
+        android:layout_marginStart="@dimen/step0"
+        android:id="@+id/dxe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dten"
+        android:layout_toEndOf="@id/photocar"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/s14"
+        android:textAlignment="viewStart" />
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:id="@+id/pdanhgia"
+        android:layout_marginStart="@dimen/step0"
+        android:layout_below="@id/davatar"
+        >
+        <ImageView
+            android:padding="1dp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star_orange"/>
+
+        <TextView
+            android:id="@+id/npdanhgia"
+            android:padding="1dp"
+            android:layout_width="30dp"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorOrange" />
+
+
+        <ImageView
+            android:layout_marginStart="@dimen/step0"
+            android:padding="1dp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rating_orange"/>
+
+        <TextView
+            android:textColor="@color/colorOrange"
+            android:id="@+id/ndanhgia"
+            android:padding="1dp"
+
+            android:layout_width="wrap_content"
+            android:minWidth="30dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:drawableStart="@drawable/ic_date_range_white_16dp"
+        android:drawablePadding="2dp"
+        android:id="@+id/dinfor"
+        android:background="@drawable/background_textview_white_orange"
+        android:padding="@dimen/step0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdanhgia"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="@dimen/step0"
+        android:textSize="@dimen/s14" />
+
+    <TextView
+        android:drawableStart="@drawable/ic_payment_white_16dp"
+        android:drawablePadding="2dp"
+        android:id="@+id/dprix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pdanhgia"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/background_textview_orange_dark"
+        android:textColor="@color/white"
+        android:padding="@dimen/step0"
+        android:layout_margin="@dimen/step0"
+        android:textSize="@dimen/s14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timeremain"
+        android:drawableStart="@drawable/ic_hourglass_empty_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/step0"
+        android:layout_marginEnd="@dimen/step0"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        android:text="00:00:00"
+        android:textStyle="bold"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:paddingStart="@dimen/step0"
+        android:paddingEnd="@dimen/step0"
+        android:background="@drawable/button_red_background"
+        android:textSize="@dimen/s14" />
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frsms"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative_toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+        <ImageView
+            android:id="@+id/backtk"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_arrow_back_white_48dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+        <TextView
+            android:layout_marginTop="24dp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="@string/Info_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginStart="0.5dp"
+        android:layout_marginEnd="0.5dp"
+        android:layout_marginTop="?actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <RadioGroup
+            android:layout_margin="0.5dp"
+            android:id="@+id/rbtrip"
+            android:checkedButton="@id/coming"
+            android:background="@drawable/background_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/coming"
+                android:background="@drawable/background_toggle_widget_bounded"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/c_c_chuy_nnhan"
+                android:paddingEnd="@dimen/step2"
+                android:paddingStart="0dp"
+                android:textColor="@drawable/button_text"
+                android:textSize="@dimen/s14"
+                app:buttonTint="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/passed"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/background_toggle_widget"
+                android:gravity="center"
+                android:text="@string/c_c_chuy_n_i"
+                android:paddingEnd="@dimen/step2"
+                android:paddingStart="0dp"
+                android:textColor="@drawable/button_text"
+                android:textSize="@dimen/s14"
+                app:buttonTint="@android:color/transparent" />
+        </RadioGroup>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:divider="@null"
+            android:dividerHeight="@dimen/step0"
+            android:layout_below="@+id/rbtrip"
+            android:id="@+id/smslw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:visibility="invisible"
+            android:layout_below="@id/rbtrip"
+            android:id="@+id/relativeLayoutnotrip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgnotrip"
+                android:src="@drawable/notrip1"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/step2"
+                />
+            <TextView
+                android:layout_below="@id/imgnotrip"
+                android:id="@+id/textnotrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notrip2"
+                android:textSize="@dimen/s14"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>
+
+
+
+
+

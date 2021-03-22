@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_body_sent_sms"
+    android:layout_marginStart="@dimen/step0"
+    android:layout_marginEnd="@dimen/step0"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:padding="@dimen/step">
+
+
+    <TextView
+        android:textColor="@color/colorSecondaryText"
+        android:text="hien thi ngay gio"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_marginStart="@dimen/step"
+        android:layout_marginTop="2dp"
+        android:layout_width="10dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/date"
+        android:src="@drawable/line"/>
+
+
+    <TextView
+        android:text="dia chi xuat phat"
+        android:lines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depart"
+        android:layout_toEndOf="@id/line"
+        android:layout_below="@id/date"
+        android:textSize="10sp"
+
+        android:textColor="#0055FF"/>
+
+
+
+    <TextView
+        android:text="dia chi den"
+        android:lines="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/destination"
+        android:layout_toEndOf="@id/line"
+        android:layout_below="@id/depart"
+        android:textSize="10sp"
+
+        android:textColor="#0055FF"/>
+
+    <TextView
+        android:text="Ban duoc hoan lai 0 DT"
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_below="@id/destination"
+
+        android:textAlignment="textEnd"
+        android:textSize="12sp" />
+
+    <TextView
+        android:text="Chuyen di da huy"
+        android:textStyle="bold"
+        android:id="@+id/stt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destination"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/step0"
+        android:textAlignment="textEnd"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

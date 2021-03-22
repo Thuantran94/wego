@@ -1,0 +1,48 @@
+<resources>
+
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorOrange</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/abelpro</item>
+        <item name="android:textSize">@dimen/s16</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="Route">
+
+        <!-- Colors -->
+        <item name="routeColor">@color/colorPrimary0</item>
+        <item name="routeModerateCongestionColor">@color/colorPrimary0</item>
+        <item name="routeSevereCongestionColor">@color/colorPrimary0</item>
+        <item name="routeShieldColor">@color/colorPrimary0</item>
+
+        <!-- Scales -->
+        <item name="routeScale">0.5</item>
+
+    </style>
+
+
+    <style name="RadioButtonStyle" parent="@android:style/Widget.CompoundButton">
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/background_textview</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#D5D2D2</item>
+        <item name="colorControlActivated">#FFC107</item>
+    </style>
+
+</resources>

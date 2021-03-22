@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/menuNearby"
+        android:icon="@drawable/ic_search_2"
+        android:title="@string/t_m_xung_quanh" />
+
+    <item
+        android:id="@+id/menuTrips"
+        android:icon="@drawable/ic_route"
+        android:title="@string/l_ch_tr_nh_c_a_b_n" />
+
+    <item
+        android:id="@+id/da_nhan"
+        android:icon="@drawable/ic_car_service_2"
+        android:title="@string/chuyen_di_da_nha" />
+
+    <item
+        android:id="@+id/menuBonus"
+        android:icon="@drawable/ic_gift_card"
+        android:title="@string/khuy_n_m_i" />
+
+
+
+    <item
+        android:id="@+id/menuHd"
+        android:icon="@drawable/ic_support"
+        android:title="@string/Infor" />
+    <item
+        android:id="@+id/menuShare"
+        android:icon="@drawable/ic_share"
+        android:title="@string/Share" />
+
+    <item
+        android:id="@+id/menuReview"
+        android:icon="@drawable/ic_feedback"
+        android:title="@string/nh_gi_ng_d_ng" />
+
+
+
+</menu>

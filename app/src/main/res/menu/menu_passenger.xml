@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/menuAddnew"
+        android:icon="@drawable/ic_pin"
+        android:title="@string/th_m_chuy_n_i_m_i" />
+    <item
+        android:id="@+id/menuCommingTrips"
+        android:icon="@drawable/ic_car_service_2"
+        android:title="@string/chuy_n_i_s_p_t_i" />
+    <item
+        android:id="@+id/menuPassTrips"
+        android:icon="@drawable/ic_carqs"
+        android:title="@string/c_c_chuy_n_i" />
+    <item
+        android:id="@+id/menuBonus"
+        android:icon="@drawable/ic_gift_card"
+        android:title="@string/khuy_n_m_i" />
+
+    <item
+        android:id="@+id/menuHd"
+        android:icon="@drawable/ic_support"
+        android:title="@string/Infor" />
+    <item
+        android:id="@+id/menuShare"
+        android:icon="@drawable/ic_share"
+        android:title="@string/Share" />
+
+    <item
+        android:id="@+id/menuReview"
+        android:icon="@drawable/ic_feedback"
+        android:title="@string/nh_gi_ng_d_ng" />
+
+</menu>

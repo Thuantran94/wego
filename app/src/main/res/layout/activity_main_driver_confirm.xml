@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:id="@+id/reladsd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:layout_margin="1dp"
+                layout="@layout/layout_passenger_info"
+                android:id="@+id/layouttrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.mapbox.mapboxsdk.maps.MapView
+                android:id="@+id/myMap1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layouttrip"
+
+                />
+
+
+
+
+            <RadioGroup
+                android:layout_margin="1dp"
+                android:id="@+id/btdAccept"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/background_toggle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/close"
+                    android:background="@drawable/background_toggle_widget_bounded"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/Close"
+                    android:textColor="@drawable/button_text"
+                    android:textSize="@dimen/s14"
+                    android:paddingEnd="@dimen/step2"
+                    android:paddingStart="0dp"
+                    app:buttonTint="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/accept"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_toggle_widget"
+                    android:gravity="center"
+                    android:text="@string/Accept1"
+                    android:textColor="@drawable/button_text"
+                    android:textSize="@dimen/s14"
+                    android:paddingEnd="@dimen/step2"
+                    android:paddingStart="0dp"
+                    app:buttonTint="@android:color/transparent" />
+            </RadioGroup>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+

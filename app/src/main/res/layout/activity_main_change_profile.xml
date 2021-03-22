@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/step"
+                    android:layout_marginBottom="@dimen/step"
+                    android:id="@+id/pavatar0"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/titlename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/step1"
+                    android:layout_marginRight="@dimen/step1"
+                    android:layout_marginBottom="@dimen/step"
+                    android:text="@string/InforProfile"
+                    android:textSize="16sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/edName"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="@dimen/step1"
+                    android:layout_marginRight="@dimen/step1"
+                    android:layout_marginBottom="@dimen/step"
+                    android:padding="@dimen/step1"
+                    android:maxLength="20"
+                    android:background="@drawable/background_edittext"
+                    android:hint="@string/Fullname"
+                    android:textColor="@color/colorOrange"
+                    android:inputType="textPersonName" />
+
+
+
+                <EditText
+                    android:id="@+id/edPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:padding="@dimen/step1"
+                    android:maxLength="10"
+                    android:layout_marginLeft="@dimen/step1"
+                    android:layout_marginRight="@dimen/step1"
+                    android:layout_marginBottom="@dimen/step"
+                    android:background="@drawable/background_edittext"
+                    android:hint="@string/hint_login"
+                    android:textColor="@color/colorOrangelight"
+                    android:inputType="number" />
+
+
+                <EditText
+                    android:id="@+id/edEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:padding="@dimen/step1"
+                    android:layout_marginLeft="@dimen/step1"
+                    android:layout_marginRight="@dimen/step1"
+                    android:layout_marginBottom="@dimen/step"
+                    android:background="@drawable/background_edittext"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/colorOrange"
+                    android:hint="Email"
+                    />
+
+                <Button
+                    android:id="@+id/btUpdateAc"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="@dimen/step1"
+                    android:layout_marginRight="@dimen/step1"
+                    android:layout_marginBottom="@dimen/step"
+                    android:background="@drawable/button_orange_background"
+                    android:text="@string/xac_nhan"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/logout"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="@dimen/step1"
+                    android:layout_marginRight="@dimen/step1"
+                    android:layout_marginBottom="@dimen/step"
+                    android:background="@null"
+                    android:text="@string/Exit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</FrameLayout>

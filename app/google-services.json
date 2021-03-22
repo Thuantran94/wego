@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "802974575587",
+    "firebase_url": "https://wego1-db35f.firebaseio.com",
+    "project_id": "wego1-db35f",
+    "storage_bucket": "wego1-db35f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802974575587:android:92658cb037448396bb8ed6",
+        "android_client_info": {
+          "package_name": "com.example.thuantran.wego"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802974575587-70n9dpirdfdbnssmunvr75nat9391756.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thuantran.wego",
+            "certificate_hash": "4edcfd68784e96d702c94d8077d103985c6f9a9d"
+          }
+        },
+        {
+          "client_id": "802974575587-fjg4mtt8fagdk155ml6jc52etae2mjon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM27-sQuHmEc2zFGVTHvu_uIBzHfTxavM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802974575587-fjg4mtt8fagdk155ml6jc52etae2mjon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

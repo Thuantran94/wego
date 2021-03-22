@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="sdsdsdsds" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.mapbox.mapboxsdk</group-id>
+        <name>mapbox-android-sdk</name>
+        <version>8.3.0-alpha.3</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.aurelhubert</group-id>
+        <name>ahbottomnavigation</name>
+        <version>2.2.0</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.firebaseui</group-id>
+        <name>firebase-ui-auth</name>
+        <version>2.1.0</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>de.hdodenhof</group-id>
+        <name>circleimageview</name>
+        <version>3.0.0</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.dmytrodanylyk.circular-progress-button</group-id>
+        <name>library</name>
+        <version>1.1.3</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.firebase</group-id>
+        <name>geofire-android</name>
+        <version>2.3.1</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>converter-gson</name>
+        <version>2.6.1</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-auth</name>
+        <version>19.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.mapbox.mapboxsdk</group-id>
+        <name>mapbox-android-navigation-ui</name>
+        <version>0.41.0</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.braintreepayments</group-id>
+        <name>card-form</name>
+        <version>4.2.0</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-storage</name>
+        <version>19.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>retrofit</name>
+        <version>2.6.1</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.mapbox.mapboxsdk</group-id>
+        <name>mapbox-android-navigation</name>
+        <version>0.41.0</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.mapbox.mapboxsdk</group-id>
+        <name>mapbox-android-geocoder</name>
+        <version>1.0.0</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.gms</group-id>
+        <name>play-services-location</name>
+        <version>17.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.legacy</group-id>
+        <name>legacy-support-v4</name>
+        <version>1.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.clans</group-id>
+        <name>fab</name>
+        <version>1.6.4</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.lifecycle</group-id>
+        <name>lifecycle-extensions</name>
+        <version>2.2.0-alpha03</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.code.gson</group-id>
+        <name>gson</name>
+        <version>2.8.5</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.anton46</group-id>
+        <name>stepsview</name>
+        <version>0.0.2</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-core</name>
+        <version>17.1.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.android.material</group-id>
+        <name>material</name>
+        <version>1.1.0-alpha09</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.firebaseui</group-id>
+        <name>firebase-ui-database</name>
+        <version>2.1.0</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.picasso</group-id>
+        <name>picasso</name>
+        <version>2.71828</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.constraintlayout</group-id>
+        <name>constraintlayout</name>
+        <version>2.0.0-beta2</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.ms-square</group-id>
+        <name>expandableTextView</name>
+        <version>0.1.4</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.firebase</group-id>
+        <name>firebase-database</name>
+        <version>19.0.0</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.mapbox.mapboxsdk</group-id>
+        <name>mapbox-android-plugin-locationlayer</name>
+        <version>0.11.0</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.f0ris.sweetalert</group-id>
+        <name>library</name>
+        <version>1.6.2</version>
+        <repository>Maven Central,JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.appcompat</group-id>
+        <name>appcompat</name>
+        <version>1.1.0-rc01</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1566295627124</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b9c0ae2-b13e-4d81-a1a1-bccd55ee9c0f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WEGO_FIREBASE" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WEGO_FIREBASE" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WEGO_FIREBASE" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WEGO_FIREBASE" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="WEGO_FIREBASE" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DATABASE1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="205" column="42" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Interface" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>newstt</find>
+      <find>split</find>
+      <find>tw2</find>
+      <find>PaTrip</find>
+      <find>REVIEW_TRIP_PASSENGER</find>
+      <find>erererersdesdd</find>
+      <find>facebook</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/passenger_add_trip_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Tools/Calcul.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/diaglog_confirm_pa.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Fragment/ShowTripFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/term_and_policy.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/TermAndPolicyActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_passenger.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_driver.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_passenger.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_driver1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Fragment/AvailableTripFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_add_proposer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Adapter/GeocoderAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Tools/Helper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_question.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Model/Profile/ModelReview.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Interface/Profile/Review.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Presenter/Profile/PresenterReview.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/Passenger/MainPassenger.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/Driver/MainDriver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Object/ReviewContext.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Adapter/ReviewAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/Driver/DrFinalActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/Passenger/PaFinalActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/ShowReviewActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_driver_final.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/review_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/passenger1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sms2_noti.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sms1_received.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/sms0_sent.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/trips.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/passenger.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_driver.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/finished.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/driver1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/driver.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_change_information.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show_review.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/Driver/DrConfirmActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Fragment/PaAddTripFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/DataAccess/AccessFireBase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/SplashScreen.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="727" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showExcludedFiles Scope="false" ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <sortByType ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DATABASE1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DATABASE1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DATABASE1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DATABASE1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="DATABASE1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DATABASE1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="build" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Source Files'; set:Project Source Files; class com.jetbrains.cidr.lang.search.scopes.ProjectSourcesScopeProvider$SourceFilesScope">
+          <expand>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="DATABASE1" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WEGO_FIREBASE" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="4d00f05ad60f6200" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-08-24T19:04:02.863Z" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Sdk" />
+    <property name="device.picker.selection" value="4d00f05ad60f6200" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="project.structure.last.edited" value="Variables" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.3.2" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1553935895861" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/assets" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.thuantran.helloword" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.example.thuantran.helloword.View" />
+      <recent name="com.example.thuantran.helloword.View.Passenger" />
+      <recent name="com.example.thuantran.helloword" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.thuantran.helloword.View" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Model/Map" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/menu" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpEmail" type="AndroidRunConfigurationType" factoryName="Android App" temporary="true">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="com.example.thuantran.helloword.View.SignUpEmail" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/home/thuantran/Android/Projects/DATABASE1/app [androidDependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="androidDependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/home/thuantran/Android/Projects/DATABASE1/app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="/home/thuantran/Android/Projects/DATABASE1/app [sourceSets]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="sourceSets" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle./home/thuantran/Android/Projects/DATABASE1/app [signingReport]" />
+        <item itemvalue="Android App.SignUpEmail" />
+        <item itemvalue="Gradle./home/thuantran/Android/Projects/DATABASE1/app [sourceSets]" />
+        <item itemvalue="Gradle./home/thuantran/Android/Projects/DATABASE1/app [androidDependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b9c0ae2-b13e-4d81-a1a1-bccd55ee9c0f" name="Default Changelist" comment="" />
+      <created>1552339167613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552339167613</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1850" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49617347" visible="true" weight="0.17849223" />
+      <window_info id="Structure" order="1" sideWeight="0.50382656" side_tool="true" weight="0.15347335" />
+      <window_info id="Captures" order="2" sideWeight="0.50382656" side_tool="true" weight="0.15347335" />
+      <window_info id="Favorites" order="3" sideWeight="0.50173813" side_tool="true" weight="0.17929563" />
+      <window_info id="Build Variants" order="4" sideWeight="0.50173813" side_tool="true" weight="0.17929563" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" weight="0.32956383" />
+      <window_info anchor="bottom" x="18" y="108" width="1884" height="833" id="Logcat" order="0" sideWeight="0.49596122" weight="0.34330708" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.3496063" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.20472442" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50567263" side_tool="true" weight="0.25862068" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32792583" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4943274" visible="true" weight="0.1577802" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32755905" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" weight="0.32861805" />
+      <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32908458" />
+      <window_info anchor="right" id="Flutter Inspector" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Assistant" order="4" weight="0.32714054" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.26552105" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Device File Explorer" order="7" weight="0.32956383" />
+      <window_info anchor="right" id="Flutter Outline" order="8" weight="0.32977587" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49617347" visible="true" weight="0.1825525" />
+      <window_info id="Structure" order="1" sideWeight="0.50382656" side_tool="true" weight="0.15347335" />
+      <window_info id="Captures" order="2" sideWeight="0.50382656" side_tool="true" weight="0.15347335" />
+      <window_info id="Favorites" order="3" sideWeight="0.50173813" side_tool="true" weight="0.17929563" />
+      <window_info id="Build Variants" order="4" sideWeight="0.50173813" side_tool="true" weight="0.17929563" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" weight="0.32956383" />
+      <window_info anchor="bottom" x="18" y="108" width="1884" height="833" id="Logcat" order="0" sideWeight="0.49596122" weight="0.26456693" />
+      <window_info anchor="bottom" id="Run" order="1" weight="0.32283464" />
+      <window_info anchor="bottom" id="Debug" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.20472442" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50567263" side_tool="true" weight="0.25862068" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32792583" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4943274" visible="true" weight="0.24566929" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32755905" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" weight="0.32861805" />
+      <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32908458" />
+      <window_info anchor="right" id="Flutter Inspector" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Assistant" order="4" weight="0.32714054" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.26552105" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Device File Explorer" order="7" weight="0.32956383" />
+      <window_info anchor="right" id="Flutter Outline" order="8" weight="0.32977587" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logo_wego.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/mail.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/in.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logout.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logo_new.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/medal.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/moon.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/menu24.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/namelogin.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/north.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/motorbiking1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/phonenumber.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/notification.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/placeholder.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/placeholder24.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/profilelogin.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/review.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/placeholder32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/road.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/scrolling_background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/scrolling_foreground.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/security.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/send.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/search1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/send1.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/silence.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/shop.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/star.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/sms.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/star32.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/suv1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/users512.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/work.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/truck.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/work32.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/zalo64.png" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/work24.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/search.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_review.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/ShowReviewActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/Driver/DrConfirmActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9363">
+          <caret line="599" column="56" selection-start-line="599" selection-start-column="56" selection-end-line="599" selection-end-column="56" />
+          <folding>
+            <element signature="e#18591#18623#0" expanded="true" />
+            <element signature="e#19297#19328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Fragment/PaAddTripFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4187">
+          <caret line="586" lean-forward="true" selection-start-line="586" selection-end-line="586" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/Tools/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="131" selection-start-line="131" selection-end-line="136" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1191" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/View/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/thuantran/helloword/DataAccess/AccessFireBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_passenger.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="205" column="42" selection-start-line="205" selection-start-column="42" selection-end-line="205" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

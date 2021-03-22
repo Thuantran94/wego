@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="QUY CHẾ HOẠT ĐỘNG VÀ CÁC ĐIỀU KHOẢN SỬ DỤNG CỦA WEGO "
+                android:textStyle="bold"
+                android:padding="@dimen/step"
+                android:layout_marginBottom="@dimen/step"
+                android:textAlignment="center"
+                android:textSize="@dimen/s20"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="@dimen/step2" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="1. Nguyên tắc và qui định chung"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Các quy chế và điều khoản này có mục đích quản lý quyền truy cập và các điều kiện sử dụng của Ứng dụng. Xin vui lòng đọc chúng một cách cẩn thận. Bạn phải hiểu và nhận ra rằng Wego không tham gia bất kỳ thỏa thuận, hợp đồng hoặc quan hệ hợp đồng nào, thuộc bất kỳ tính chất nào được ký kết giữa các thành viên."
+
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Bằng cách đăng nhập Wego, bạn đồng ý đã đọc và chấp nhận tất cả các điều kiện sử dụng chung này."
+
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2. Quy trình đăng kí và sử dụng dịch vụ "
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2.1 Điều kiện:"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Ứng dụng có thể được sử dụng bởi các cá nhân từ 18 tuổi trở lên. Việc đăng ký và sử dụng dịch vụ trên Ứng dụng bởi một trẻ vị thành niên là bị nghiêm cấm. Khi truy cập, sử dụng hoặc đăng ký trên Ứng dụng đồng nghĩa với việc bạn đã chấp nhận và bảo đảm rằng bạn trên 18 tuổi."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2.2 Đăng kí tài khoản:"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Wego cho phép các thành viên đăng tải lịch trình của mình và tương tác với nhau để đặt chỗ ngồi. Bạn không thể đăng tải lịch trình hoặc tìm kiếm tài xế khi chưa trở thành thành viên của cộng đồng Wego."
+                android:layout_marginBottom="@dimen/step"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2.3 Quy trình đăng kí tài khoản :"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="1. Tải và cài đặt Ứng dụng Wego về điện thoại."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2. Truy cập Ứng dụng Wego."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="3. Nhập số điện thoại, hoặc tạo một tài khoản mới bằng email và nhấn “Đăng nhập”. Trong trường hợp đăng nhập bằng số điện thoại, một mã kích hoạt sẽ tự động gửi đến số điện thoại đã được đăng ký."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="4. Hoàn thành các trường bắt buộc để cung cấp thông tin cá nhân của bạn."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="5. Lựa chọn loại hình sử dụng của bạn."
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Khi tạo tài khoản, bất kể phương thức nào được chọn, bạn đã đồng ý cam kết tất cả các thông tin mà bạn cung cấp là chính xác và đúng sự thật, cập nhật nó thông qua hồ sơ của bạn hoặc bằng cách thông báo cho Wego, để đảm bảo tính liên quan và chính xác của nó trong suốt quan hệ hợp đồng của bạn với Wego."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Trong trường hợp đăng ký qua email, bạn đồng ý giữ bí mật mật khẩu đã chọn khi tạo tài khoản và không tiết lộ với bất kỳ ai. Nếu bạn bị mất hoặc tiết lộ mật khẩu, bạn phải thông báo cho Wego ngay lập tức. Bạn phải hoàn toàn chịu trách nhiệm cho việc sử dụng tài khoản của bạn bởi các bên thứ ba, trừ khi bạn đã thông báo rõ ràng cho Wego khi tài khoản của bạn bị mất, hoặc việc bên thứ ba sử dụng gian lận hoặc tiết lộ mật khẩu của bạn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Bạn phải nhận ra và chấp nhận rằng khi bạn nhìn thấy bất kỳ thông tin của thành viên nào trên Ứng dụng có nghĩa là thành viên đó đã vượt qua thành công quy trình xác minh hiện có và chỉ để cung cấp cho bạn thêm thông tin về thành viên mà bạn đang cân nhắc tham gia di chuyển cùng. Wego không thể đảm bảo tính trung thực, độ tin cậy hoặc tính hợp lệ của từng thông tin của tất cả các thành viên."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2.4. Đăng lịch trình:"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Khi bạn đăng tải một lịch trình tìm kiếm tài xế hoặc hành khách, bạn phải hoàn toàn chịu trách nhiệm về nội dung mà bạn đăng trên Ứng dụng. Do đó, bạn đại diện và đảm bảo tính chính xác và trung thực của tất cả thông tin có trong bài đăng của bạn và bạn cam kết thực hiện chuyến đi theo các điều kiện, yêu cầu và chi phí được mô tả trong bài đăng."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Trong trường hợp bạn là tài xế, bạn đăng tải lịch trình đồng nghĩa với việc bạn phải đảm bảo đầy đủ các yêu cầu về giấy phép lái xe, bảo hiểm xe hợp lệ, cam kết phương tiện di chuyển đúng với những gì bạn đã khai báo, cam kết bạn là chủ sở hữu của phương tiện, cam kết bạn là người điều khiển phương tiện trong suốt lộ trình, bạn không có bất kì chống chỉ định hoặc đang có vấn đề về sức khoẻ khi lái xe, không cung cấp số ghế trống nhiều hơn tổng số ghế trống trên xe của bạn, đảo bảo dây an toàn được trang bị đầy đủ cho mỗi ghế, tất cả các thiết bị trên xe đều đảm bảo hoạt động trong điều kiện tốt nhất."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Trong trường hợp bạn là hành khách, bạn đăng tải lịch trình cho chuyến đi của bạn đồng nghĩa với việc bạn cam kết các nội dung trong bản tin đăng là hoàn toàn chính xác. Nghiêm cấm đặt chỗ cho trẻ vị thành niên dưới 13 tuổi đi một mình. Trong trường hợp bạn đặt chỗ cho trẻ vị thành niên trên 13 tuổi đi một mình, bạn cam kết yêu cầu thỏa thuận trước của tài xế và cung cấp cho anh ta đầy đủ và ký giấy phép hợp lệ của người đại diện hợp pháp của anh ấy / cô ấy. Ngoài ra, Ứng dụng chỉ dành cho việc đặt chỗ cho các cá nhân, nghiêm cấm đặt chỗ ngồi để vận chuyển bất kỳ đồ vật, động vật đi một mình hoặc bất kì vật phẩm nào trái với quy định của pháp luật nhà nước hiện hành."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2.5 Hệ thống đánh giá:"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Wego khuyến khích bạn để lại đánh giá cho tài xế nếu bạn là hành khách hoặc cho hành khách nếu bạn là tài xế mà bạn đã chia sẻ chuyến đi hoặc người mà bạn phải chia sẻ chuyến đi. Tuy nhiên, bạn không được phép để lại bình luận về một hành khách khác nếu bạn là hành khách, hoặc về một thành viên mà bạn chưa tham gia di chuyển cùng."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Wego có quyền xoá các đánh giá, câu hỏi, bình luận hoặc bất kì nhận xét nào có nội dung cực đoan, xúc phạm đến các thành viên khác hoặc vi phạm các điều khoản sử dụng này. Đồng thời Wego cũng có quyền giới hạn quyền truy cập của bạn vào Ứng dụng hoặc đình chỉ tài khoản của bạn trong trường hợp bạn đã nhận được nhiều lần tố cáo từ các thành viên đã tham gia chuyến đi cùng bạn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="3. Chi phí thanh toán"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Việc truy cập, đăng ký cũng như tìm kiếm, xem, đăng tải lịch trình trên Ứng dụng là miễn phí. Tuy nhiên, việc nhận chuyến đi được tính phí theo các điều kiện được mô tả dưới đây."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="3.1 Chi phí chuyến đi"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Chi phí chuyến đi được xác định bởi bạn, thuộc trách nhiệm của bạn. Nghiêm cấm lợi dụng theo bất kỳ cách nào từ việc sử dụng Ứng dụng của chúng tôi. Do đó, bạn đồng ý với việc Wego sẽ giới hạn chi phí chuyến đi phải trả."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Khi bạn đăng một lịch trình cho chuyến đi của mình, Wego sẽ đề xuất cho bạn một chi phí phụ thuộc vào thời gian và quãng đường bạn đi. Số tiền này được đưa ra hoàn toàn như một hướng dẫn và tùy thuộc vào bạn có thể tăng hoặc giảm nó. Tuy nhiên, để tránh lạm dụng, Wego sẽ giới hạn khả năng điều chỉnh chi phí của bạn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="3.2 Phí dịch vụ"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Wego sẽ áp dụng mức phí dịch vụ dựa vào chi phí của chuyến đi, việc tính toán phí dịch vụ sẽ phụ thuộc vào các yếu tố sau: thời gian, khoảng cách và số lượng hành khách trong mỗi chuyến đi, số lượng chuyến đi mà bạn đã tham gia cũng như số điểm đánh giá của bạn (số sao). Hiện tại, Wego đề xuất mức chiết khấu ban đầu cao nhất là 10% và thấp nhất là 5% trên tổng chi phí chuyến đi. "
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Bạn đồng ý rằng Wego có thể toàn quyền quyết định làm tròn hoặc thay đổi chi phí dịch vụ và chi phí chuyến đi."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="3.3 Hình thức thanh toán"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Các chuyến đi được thực hiện thông qua Wego sẽ chỉ được thanh toán bằng tiền mặt sau khi chuyến đi được kết thúc. Wego không chấp nhận các hình thức thanh toán khác như qua các ví điện tử hoặc thông qua thẻ tín dụng. Bằng cách tiếp tục đặt xe, bạn xác nhận và đồng ý rằng bạn chấp nhận thanh toán chi phí bằng tiền mặt cho tài xế."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="4. Các chính sách huỷ chuyến đi"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Việc hủy chỗ ngồi trên chuyến đi với việc đặt chỗ bởi tài xế hoặc hành khách sau khi đã xác nhận phải tuân theo các quy định dưới đây:"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="1. Trong trường hợp chuyến đi bị hủy do tài xế, hành khách được hoàn lại toàn bộ số tiền đã trả bao gồm phí chuyến đi và phí dịch vụ. Đây là trường hợp đáng chú ý khi tài xế hủy chuyến đi hoặc chưa đến điểm hẹn 15 phút sau thời gian đã thỏa thuận."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2. Trong trường hợp chuyến đi bị hủy do hành khách, hành khách sẽ không được hoàn lại tiền. Tài xế sẽ được hoàn lại toàn bộ chi phí dịch vụ."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="5. chính sách và điều khoản đối với bên thứ ba"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text=" Wego có thể được liên kết với các trang điện tử hoặc các cổng thanh toán trực tuyến thuộc sự quản lý và điều hành của bên thứ ba. Trong trường hợp này, Wego không kiểm soát và không có nghĩa vụ hay trách nhiệm nào đối với với việc thu thập, sử dụng, lưu trữ, chia sẻ hoặc tiết lộ dữ liệu và thông tin cá nhân của bạn bởi các bên thứ ba này. Vui lòng tham khảo các điều khoản và điều kiện và chính sách bảo mật của bên thứ ba để tìm hiểu phương thức các bên đó thu thập và sử dụng thông tin cá nhân của bạn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text=" Các quảng cáo nếu có trên Ứng dụng của chúng tôi hoạt động như các liên kết đến trang điện tử của bên quảng cáo và do vậy bất kỳ thông tin nào bên quảng cáo thu thập do bạn chọn vào liên kết đó sẽ được bên quảng cáo liên quan thu thập và sử dụng theo chính sách bảo mật của bên quảng cáo đó."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="6. Cam kết của người dùng"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Bạn đồng ý với việc chịu trách nhiệm tôn trọng tất cả các luật, quy định và nghĩa vụ áp dụng cho việc sử dụng Ứng dụng của bạn. Hơn nữa, khi sử dụng Ứng dụng và trong các chuyến đi, bạn phải đảm bảo:"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="1. Không sử dụng Ứng dụng cho mục đích chuyên nghiệp, thương mại hoặc kiếm lợi nhuận."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2. Không gửi cho Wego hoặc các thành viên khác bất kỳ thông tin sai lệch, gây hiểu lầm, độc hại hoặc lừa đảo hoặc hoặc trái với đạo đức tốt"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="3. Không vi phạm các quyền và hình ảnh của Wego. Không dịch ngược và đánh cắp thông tin của Ứng dụng. Mọi hành vi xâm phạm đến quyền sở hữu trí tuệ của Wego sẽ bị xử lí theo quy định của pháp luật hiện hành."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="4. Không mở nhiều tài khoản trên Ứng dụng và không mở tài khoản dưới tên của người khác."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="5. Không liên hệ với thành viên khác thông qua Ứng dụng cho mục đích khác ngoài việc xác định các điều khoản của đi chung xe."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="6. Tôn trọng tất cả các luật, quy định và quy tắc giao thông và phương tiện, có bảo hiểm trách nhiệm dân sự còn hiệu lực tại thời điểm chuyến đi và được sở hữu bằng lái xe hợp lệ."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="7. Không chấp nhận bất kỳ rủi ro nào khi lái xe, không sử dụng bất kỳ sản phẩm nào có thể làm giảm sự chú ý, nghiêm cấm sử dụng chất kích thích khi lái xe, chú ý lái xe của bạn một cách thận trọng và hoàn toàn an toàn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="8. Chỉ đăng lịch trình trên Ứng dụng tương ứng với các chuyến đi thực tế mà bạn đã lên kế hoạch."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="9. Thực hiện chuyến đi như được mô tả trong bài đăng, tôn trọng thời gian và địa điểm đã thỏa thuận với các thành viên khác đặc biệt là điểm gặp gỡ và điểm thả xuống."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="10. Không nhận nhiều hành khách hơn số lượng đã được chỉ định trong bài đăng."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="11. Trong trường hợp tạm dừng hoặc thay đổi thời gian của chuyến đi, hãy thông báo cho hành khách của bạn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="12. Chờ hành khách tại địa điểm đã thỏa thuận trong ít nhất 15 phút sau thời gian đã thỏa thuận."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="13. Không đăng lịch trình liên quan đến chiếc xe bạn không sở hữu hoặc bạn không được phép sử dụng cho mục đích đi chung xe."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="14. Để đảm bảo, bạn có thể liên lạc với hành khách của mình qua điện thoại theo số điện thoại trong hồ sơ chuyến đi của bạn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="15. Không tạo ra bất kỳ lợi nhuận nào thông qua Ứng dụng."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="16. Không có bất kỳ chống chỉ định hoặc vấn đề sức khoẻ nào khi tham gia đi chung xe."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="17. Cư xử phù hợp và có trách nhiệm trong chuyến đi, tuân thủ tinh thần đi chung xe"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="18. Không gây ồn ào gây cản trở sự tập trung hoặc lái xe của tài xế."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="19. Tôn trọng chiếc xe và sự sạch sẽ của nó. Không được mang theo bất kỳ vật phẩm, hàng hóa, chất hoặc động vật nào có thể cản trở việc lái xe và sự tập trung của tài xế, hoặc vận chuyển hàng hoá trái với quy định pháp luật."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="20. Thông báo cho người đi cùng ngay khi có bất kì sự chậm trễ nào."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_marginTop="@dimen/step"
+                android:text="Các Thông báo này sẽ được cập nhật đầy đủ và chi hơn trên website của chúng tôi. Trong trường hợp có mâu thuẫn hoặc thiếu sót giữa Thông báo này và Thông báo trên website, bạn phải chấp nhận bản Thông báo trên website sẽ được ưu tiên áp dụng."
+                android:textSize="@dimen/s16" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/seemore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlue"
+                android:text="@string/xem_chi_ti_t"
+                android:layout_marginBottom="@dimen/step"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/s14"
+                android:padding="@dimen/step"
+                android:layout_marginTop="@dimen/step" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

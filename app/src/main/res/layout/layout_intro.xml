@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="GIỚI THIỆU VỀ WEGO "
+                android:textStyle="bold"
+                android:padding="@dimen/step"
+                android:layout_marginBottom="@dimen/step"
+                android:textAlignment="center"
+                android:textSize="@dimen/s20"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="@dimen/step2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Wego Car-Sharing Service (sau đây gọi tắt là Wego) là một nền tảng dụng đi chung xe có thể truy cập trên một trang web tại địa chỉ www.wego.vn hoặc trên Ứng dụng di động Wego và được thiết kế để đưa các tài xế đi đến một điểm đến cụ thể liên hệ với các hành khách đi cùng hướng, cho phép họ có thể chia sẻ chuyến đi và các chi phí liên quan."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_marginTop="@dimen/step2"
+                android:text="Ứng dụng Wego"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Đặt chuyến đi chỉ trong 3 thao tác. Wego khiến mọi chuyến đi của bạn chưa bao giờ dễ dàng và tiết kiệm hơn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="167dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/step"
+                android:layout_marginEnd="@dimen/step2"
+                android:src="@drawable/introwg"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Không chỉ cung cấp dịch vụ chia sẻ chuyến đi, các thành viên trong cộng đồng Wego còn mang đến cho bạn một không gian thân thiện, vui vẻ trong suốt chuyến hành trình của mình."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="167dp"
+                android:layout_marginTop="@dimen/step"
+                android:layout_marginStart="@dimen/step2"
+                android:src="@drawable/introwg2"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Phiên bản dành cho Android."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+
+            <TextView
+                android:id="@+id/seemore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlue"
+                android:text="@string/xem_chi_ti_t"
+                android:layout_marginBottom="@dimen/step"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/s14"
+                android:padding="@dimen/step"
+                android:layout_marginTop="@dimen/step" />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

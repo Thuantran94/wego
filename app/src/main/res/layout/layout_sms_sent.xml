@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+
+        android:padding="5dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/avatarsms"
+
+        />
+
+
+    <TextView
+        android:layout_toEndOf="@id/avatarsms"
+        android:id="@+id/namesms"
+        android:layout_marginStart="@dimen/step0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="@color/colorSecondaryText"
+        android:textStyle="bold"
+        android:textSize="@dimen/s14" />
+
+
+    <LinearLayout
+        android:background="@drawable/background_body_sent_sms"
+        android:layout_toEndOf="@id/avatarsms"
+        android:layout_below="@id/namesms"
+        android:layout_marginStart="@dimen/step0"
+        android:layout_marginEnd="@dimen/step0"
+        android:layout_marginBottom="@dimen/step0"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:id="@+id/contextsms"
+            android:layout_marginBottom="1dp"
+            android:paddingStart="@dimen/step0"
+            android:paddingEnd="@dimen/step0"
+            android:paddingTop="@dimen/step0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:maxWidth="200dp"
+            android:textStyle="normal"
+            android:text="Ho hachztret re yert t r sdf ezr  rer   ererer err zdsd dfdrtr  r yrtytryrty rtyrtyrtytr "
+            android:textSize="@dimen/s14" />
+
+
+        <TextView
+
+            android:layout_gravity="end"
+            android:id="@+id/timesms"
+            android:text="0p truoc"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="@dimen/step0"
+            android:layout_marginBottom="@dimen/step0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/s10" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

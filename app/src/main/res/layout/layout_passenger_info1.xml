@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/reladr2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/step0"
+    android:alpha="0.9"
+    android:background="@drawable/background_textview_orange"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/pavatar"
+        android:padding="5dp"
+        android:layout_marginTop="@dimen/step"
+
+        />
+
+    <TextView
+        android:layout_marginTop="@dimen/step"
+        android:id="@+id/pten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/pavatar"
+        android:textColor="@color/colorOrange"
+        android:textSize="@dimen/s18"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/gender"
+        android:layout_marginTop="@dimen/step"
+        android:layout_width="@dimen/step"
+        android:layout_height="@dimen/step"
+        android:layout_toEndOf="@id/pten" />
+
+    <TextView
+        android:id="@+id/pphone"
+        android:textColor="@color/colorOrange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pten"
+        android:layout_toEndOf="@id/pavatar"
+        android:textSize="@dimen/s14"
+        android:textStyle="bold" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:id="@+id/pdanhgia"
+        android:layout_below="@id/pphone"
+        android:layout_toEndOf="@id/pavatar"
+        >
+        <ImageView
+            android:padding="1dp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star_orange"/>
+
+        <TextView
+            android:id="@+id/npdanhgia"
+            android:padding="1dp"
+            android:layout_width="30dp"
+            android:maxLength="3"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorOrange" />
+
+        <ImageView
+            android:layout_marginStart="@dimen/step0"
+            android:padding="1dp"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rating_orange"/>
+
+        <TextView
+            android:textColor="@color/colorBlue"
+            android:id="@+id/ndanhgia"
+            android:padding="1dp"
+
+            android:layout_width="wrap_content"
+            android:minWidth="30dp"
+            android:textAlignment="center"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:drawableStart="@drawable/ic_my_location_orange_16dp"
+        android:layout_marginStart="2dp"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/depart"
+        android:layout_below="@id/pdanhgia"
+        android:textSize="@dimen/s14"
+        android:textColor="#0055FF"/>
+
+    <TextView
+        android:drawableStart="@drawable/ic_place_orange_16dp"
+        android:layout_marginStart="2dp"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/destination"
+        android:layout_below="@id/depart"
+        android:textSize="@dimen/s14"
+        android:textColor="#0055FF"/>
+
+    <LinearLayout
+        android:layout_below="@+id/destination"
+        android:id="@+id/lnto"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:drawableStart="@drawable/ic_date_range_white_16dp"
+            android:background="@drawable/background_textview_orange"
+            android:textColor="@color/colorOrange"
+            android:layout_weight="5"
+            android:padding="2dp"
+            android:textAlignment="center"
+            android:id="@+id/pTimeMetting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/s12" />
+
+        <TextView
+            android:background="@drawable/background_textview_orange"
+            android:drawableStart="@drawable/ic_person_white_16dp"
+            android:textColor="@color/colorOrange"
+            android:layout_marginStart="2dp"
+            android:layout_weight="2.5"
+            android:id="@+id/nperson"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textAlignment="center"
+            android:textSize="@dimen/s12"/>
+
+
+
+
+
+        <TextView
+            android:drawableStart="@drawable/ic_directions_car_white_16dp"
+            android:id="@+id/typecarrq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:textAlignment="center"
+            android:layout_weight="2.5"
+            android:padding="2dp"
+            android:background="@drawable/background_textview_orange"
+            android:textColor="@color/colorOrange"
+            android:textSize="@dimen/s12" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lnto"
+        android:padding="3dp"
+
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+
+
+        <TextView
+            android:drawableStart="@drawable/ic_access_time_white_24dp"
+            android:background="@drawable/background_textview_orange_dark"
+            android:textColor="@color/white"
+            android:padding="@dimen/step0"
+            android:id="@+id/distancePa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="@dimen/s14"
+            android:layout_marginEnd="2dp"
+            />
+
+
+        <TextView
+            android:drawableStart="@drawable/ic_payment_white_24dp"
+            android:background="@drawable/background_textview_orange_dark"
+            android:textColor="@color/white"
+            android:padding="@dimen/step0"
+            android:layout_weight="5"
+            android:id="@+id/pprix"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="@dimen/s14" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

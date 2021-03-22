@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Nhập Code HITEST lấy DT "
+                android:padding="@dimen/step"
+                android:layout_marginBottom="@dimen/step"
+                android:textAlignment="center"
+                android:textSize="@dimen/s20"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="@dimen/step2" />
+
+
+            <EditText
+                android:id="@+id/n"
+                android:background="@drawable/border"
+                android:padding="@dimen/step"
+                android:hint="Nhập số chuyến đi cần tạo"
+                android:textSize="@dimen/s14"
+                android:textAlignment="center"
+                android:maxLength="3"
+                android:inputType="number"
+                android:layout_marginBottom="@dimen/step"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:id="@+id/createPaTrip"
+                android:background="@drawable/button_orange_background"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tạo cho HK "/>
+
+            <Button
+                android:layout_marginTop="@dimen/step0"
+                android:id="@+id/createDrTrip"
+                android:background="@drawable/button_orange_background"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tạo cho TX "/>
+
+            <Button
+                android:layout_marginTop="@dimen/step0"
+                android:id="@+id/deletePaTrip"
+                android:background="@drawable/button_orange_background"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xoá tất cả chuyến di của HK "/>
+
+            <Button
+                android:layout_marginTop="@dimen/step0"
+                android:id="@+id/deleteDrTrip"
+                android:background="@drawable/button_orange_background"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Xoá tất cả chuyến di của TX "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Phần nhận xét của bạn "
+                android:textAlignment="center"
+                android:textSize="@dimen/s20"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="@dimen/step2" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text=" Thiết kế giao diện "
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="10dp" />
+
+
+            <RatingBar
+                android:id="@+id/giaodien"
+                android:layout_gravity="center"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            </RatingBar>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Trải nghiêm người dùng "
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="10dp" />
+
+
+            <RatingBar
+                android:id="@+id/trainghiem"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stepSize="1"
+                android:numStars="5"
+                >
+
+            </RatingBar>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Các tính năng của ứng dụng  "
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="10dp" />
+
+
+            <RatingBar
+                android:id="@+id/tinhnang"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stepSize="1"
+                android:numStars="5"
+                >
+
+            </RatingBar>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Nhu cầu sử dụng của bạn "
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="10dp" />
+
+
+            <RatingBar
+                android:id="@+id/nhucau"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stepSize="1"
+                android:numStars="5"
+                >
+
+            </RatingBar>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Báo lỗi hoặc thêm nhận xét của bạn tại đây:"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="@dimen/step2"/>
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:gravity="top|left"
+                android:background="@drawable/border"
+                android:lines="8"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

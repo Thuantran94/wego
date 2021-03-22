@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/relative_toolbar"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+            <ImageView
+                android:id="@+id/backhomedr"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/ic_arrow_back_white_48dp"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+            <TextView
+                android:layout_marginTop="24dp"
+                android:textColor="@android:color/white"
+                android:layout_centerInParent="true"
+                android:textSize="20sp"
+                android:text="@string/L_ch_tr_nh_c_a_b_n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/add"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_add_circle_outline_white_32dp"
+                android:layout_width="32dp"
+                android:layout_height="32dp" />
+
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/relative_toolbar"
+            android:id="@+id/lwproposer"
+            android:dividerHeight="@dimen/step0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:layout_marginTop="?actionBarSize"
+        android:id="@+id/relativeLayoutnotrip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgnotrip"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/step2"
+            android:src="@drawable/notrip"
+            />
+        <TextView
+            android:layout_below="@id/imgnotrip"
+            android:id="@+id/textnotrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notrip2"
+            android:textSize="@dimen/s14"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_below="@id/textnotrip"
+            android:id="@+id/textnotripq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notrip0"
+            android:textSize="@dimen/s14"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+

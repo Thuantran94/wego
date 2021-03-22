@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/step2"
+
+        android:src="@drawable/share"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/s16"
+        android:layout_margin="@dimen/step"
+        android:text="@string/m_chia_s_c_"
+        />
+
+    <TextView
+        android:id="@+id/sharecode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:textSize="@dimen/s20"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlueLight"
+        android:text="CODESH"
+        />
+
+
+    <Button
+
+        android:id="@+id/sharenow"
+        android:background="@drawable/button_orange_background"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/step2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chia_s_ngay"/>
+
+
+    <TextView
+        android:id="@+id/infoshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/step2"
+        android:textSize="@dimen/s12"
+        android:textColor="@color/colorBlueLight"
+        android:text="@string/xem_chi_ti_t"
+        />
+
+
+</LinearLayout>

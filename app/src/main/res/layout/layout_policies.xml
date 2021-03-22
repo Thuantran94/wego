@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="CHÍNH SÁCH BẢO MẬT WEGO"
+                android:textStyle="bold"
+                android:padding="@dimen/step"
+                android:layout_marginBottom="@dimen/step"
+                android:textAlignment="center"
+                android:textSize="@dimen/s20"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="@dimen/step2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Để đảm bảo an toàn cho chuyến đi của bạn, Wego đã đưa ra các biện pháp bao gồm xác minh danh tính, thông tin cá nhân, xác minh ảnh đại diện, và đưa ra hệ thống xếp hạng giữa các người dùng để đảm bảo mức độ tin cậy và chất lượng từng thành viên. Ngoài ra Wego còn đề xuất cho bạn một tuyên bố danh dự và thái độ ứng xử của từng thành viên để đảm bảo cho bạn có những chuyến đi thanh thản nhất. Do đó, việc thu tập các dữ liệu cá nhân và các đánh giá mà bạn để lại là rất quan trọng để đảm bảo và nâng cao chất lượng của cộng đồng Wego."
+
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Bảo mật của bạn là ưu tiên hàng đầu của Wego. Chúng tôi xin cam đoan sẽ bảo vệ tuyệt đối những thông tin cá nhân của người sử dụng ứng dụng. Chúng tôi chỉ thu thập những thông tin cần thiết và có liên quan đến việc thực hiện chia sẻ chuyến đi chung. Chúng tôi sẽ lưu giữ thông tin của người sử dụng trong thời gian luật pháp quy định hoặc cho mục đích nào đó. "
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+                android:textColor="@color/colorSecondaryText"
+                android:text="1. Thu thập dữ liệu cá nhân"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Wego thu thập một lượng dữ liệu cá nhân nhất định của bạn khi bạn cung cấp nó một cách tự nguyện thông qua việc đăng kí sử dụng dich vụ. Các thông tin có được trực tiếp từ bạn hay từ thiết bị di động của bạn ví dụ như: thông tin cá nhân, thông tin xe, thiết bị sử dụng, các phản hồi, nhận xét và dữ liệu tin nhắn trong quá trình đăng kí và sử dụng dịch vụ của bạn."
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Dữ liệu cá nhân của bạn sẽ được sử dụng để quản lý tài khoản của bạn, xác minh và thực hiện giao dịch trực tuyến, cung cấp, cá nhân hóa, duy trì và cải thiện nội dung của của Wego. Điều này bao gồm sử dụng dữ liệu cá nhân của bạn để:"
+                android:textSize="@dimen/s16"
+                android:layout_marginTop="@dimen/step" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="1. Xác minh danh tính của bạn."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="2. Theo dõi lộ trình của bạn và phát hiện các sự thay đổi chuyến đi bất thường."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="3. Cá nhân hoá Ứng dụng cho bạn."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="4. Cho phép bạn liên lạc giữa các thành viên trong cộng đồng Wego."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="5. Xác nhận chuyến xe của bạn và thực hiện các khoản thanh toán."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="6. Ngăn chặn, phát hiện và chống lại các hoạt động gian lận hoặc không an toàn."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="7. Giám sát thái độ, quy tắc ứng xử của từng thành viên."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="8. Xác định hành vi lái xe không an toàn như tốc độ nhanh, phanh gấp và tăng tốc và cung cấp phản hồi cá nhân cho các đối tác lái xe."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="9. Sàng lọc tài xế và đối tác giao hàng trước khi cho phép họ sử dụng Dịch Vụ của chúng tôi."
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="10. Xử lý và quản lý phần thưởng của bạn."
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Các khoản thanh toán trực tuyến sẽ được xử lý bởi các đại lý mạng lưới quốc tế từ bên thứ ba. Người dùng chỉ đưa cho chúng tôi hoặc bên thứ ba có liên quan những thông tin chính xác, không gây nhầm lẫn và phải thông báo cho chúng tôi nếu có thay đổi."
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+
+                android:textColor="@color/colorSecondaryText"
+                android:text="2. Lưu trữ dữ liệu cá nhân"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_marginTop="@dimen/step"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="Wego lưu giữ dữ liệu cá nhân của bạn trong suốt thời gian mà bạn duy trì tài khoản trên Ứng dụng. Khi dữ liệu cá nhân của bạn không còn cần thiết cho việc cải thiện chất lượng dịch vụ hoặc chúng tôi không còn có mục đích kinh doanh hoặc pháp lý để giữ lại dữ liệu cá nhân của bạn, Wego sẽ thực hiện ngăn chặn việc truy cập hoặc sử dụng dữ liệu cá nhân cho bất kỳ mục đích nào ngoài việc tuân thủ theo chính sách bảo mật này, hoặc cho mục đích an toàn, bảo mật, phát hiện và phòng chống gian lận."
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+                android:textColor="@color/colorSecondaryText"
+                android:text="3. Tiết lộ dữ liệu cá nhân"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_marginTop="@dimen/step"
+                android:text="Chia sẻ dữ liệu giữa các thành viên. Nếu bạn là hành khách, Wego có thể chia sẻ tên, số điện thoại, địa điểm đón và trả khách của bạn với tài xế của bạn. Nếu bạn là tài xế, Wego có thể chia sẻ dữ liệu cá nhân của bạn với hành khách bao gồm số điện thoại tên, ảnh, thông tin xe, loại xe, biển số, vị trí và mức đánh giá trung bình."
+                android:textSize="@dimen/s16" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+                android:textColor="@color/colorSecondaryText"
+                android:text="4. Tiếp cận và chỉnh sửa dữ liệu cá nhân"
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_marginTop="@dimen/step"
+                android:text="Wego cho phép người dùng có thể tiếp cận và chỉnh sửa trực tiếp dữ liệu cá nhân của mình trực tiếp trên Ứng dụng bằng cách đăng nhập vào tài khoản mà mình đã đăng ký và sửa lại các thông tin, dữ liệu cá nhân của mình."
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+                android:textColor="@color/colorSecondaryText"
+                android:text="5. Thay đổi chính sách bảo mật "
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_marginTop="@dimen/step"
+                android:text="Wego có quyền sửa đổi, cập nhật hoặc điều chỉnh các điều khoản của chính sách bảo mật này và theo toàn quyền quyết định của chúng tôi vào từng thời điểm để bảo đảm phù hợp với sự phát triển của Wego trong tương lai và/hoặc các thay đổi về các yêu cầu pháp lý hoặc quản lý. Bạn đồng ý rằng bạn có trách nhiệm thường xuyên xem lại chính sách bảo mật này để biết thông tin mới nhất về trình tự xử lý dữ liệu và bảo vệ dữ liệu của chúng tôi, và việc bạn tiếp tục sử dụng Ứng dụng sau khi có bất kỳ sửa đổi nào sẽ được coi là sự chấp thuận của bạn đối với các nội dung sửa đổi đó."
+                android:textSize="@dimen/s16" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+                android:textColor="@color/colorSecondaryText"
+                android:text="6. Cam kết bảo mật dữ liệu cá nhân "
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_marginTop="@dimen/step"
+                android:text="Wego chỉ tập hợp các thông tin cá nhân trong phạm vi phù hợp và cần thiết cho mục đích thương mại đúng đắn của chúng tôi. Chúng tôi duy trì các biện pháp thích hợp nhằm đảm bảo tính an toàn, nguyên vẹn, độ chính xác, và tính bảo mật của những thông tin mà người sử dụng đã cung cấp. Ngoài ra, chúng tôi cũng có những biện pháp thích hợp để đảm bảo rằng bên thứ ba cũng sẽ đảm bảo an toàn cho các thông tin mà chúng tôi cung cấp cho họ. Thông tin cá nhân, thông tin riêng của người sử dụng được thu thập, lưu trữ và bảo vệ một cách nghiêm túc, chính xác và bảo mật. Chúng tôi thiết lập những phần mềm thu thập, lưu trữ thông tin riêng biệt và được thực hiện duy nhất bởi hệ thống máy chủ và hệ thống máy chủ dự phòng của chúng tôi. Việc bảo mật các thông tin cá nhân, thông tin riêng của người sử dụng là tuyệt đối và sẽ không bị xuất trình cho bên thứ ba bất kỳ trừ khi có yêu cầu từ phía cơ quan Nhà nước có thẩm quyền."
+                android:textSize="@dimen/s16" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+                android:textColor="@color/colorSecondaryText"
+                android:text="7. Xác nhận và chấp thuận "
+                android:textStyle="bold"
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_marginTop="@dimen/step"
+                android:text="Bằng việc chấp thuận tiếp tục sử dụng các dịch vụ của Wego, bạn xác nhận, cam kết và chấp thuận các chính sách bảo mật của chúng tôi. Cụ thể là bạn đồng ý và chấp thuận cho chúng tôi thu thập, sử dụng, tiết lộ, lưu trữ, chuyển giao hoặc xử lý bằng cách khác dữ liệu cá nhân của bạn."
+                android:textSize="@dimen/s16" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_marginTop="@dimen/step"
+                android:text="Các Thông báo này sẽ được cập nhật đầy đủ và chi hơn trên website của chúng tôi. Trong trường hợp có mâu thuẫn hoặc thiếu sót giữa Thông báo này và Thông báo trên website, bạn phải chấp nhận bản Thông báo trên website sẽ được ưu tiên áp dụng."
+                android:textSize="@dimen/s16" />
+
+            <TextView
+                android:id="@+id/seemore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlue"
+                android:text="@string/xem_chi_ti_t"
+                android:layout_marginBottom="@dimen/step"
+                android:textAlignment="textEnd"
+                android:textSize="@dimen/s14"
+                android:padding="@dimen/step"
+                android:layout_marginTop="@dimen/step" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragmentPaAdd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+
+
+
+
+
+    <AutoCompleteTextView
+        android:textColor="@color/colorOrange"
+        android:layout_marginTop="@dimen/step0"
+        android:layout_marginStart="@dimen/step0"
+        android:layout_marginEnd="@dimen/step0"
+        android:paddingStart="5dp"
+        android:paddingEnd="@dimen/step"
+        android:drawableStart="@android:drawable/ic_menu_search"
+        android:background="@drawable/background_edittext"
+
+        android:layout_gravity="top|center"
+        android:hint="@string/th_m_m_i"
+        android:inputType="text"
+        android:textSize="@dimen/s14"
+        android:id="@+id/autocompletetw"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        tools:ignore="RtlSymmetry" />
+
+
+
+    <ImageView
+        android:layout_marginBottom="@dimen/step2"
+        android:id="@+id/maker"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/white"
+        android:focusable="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+
+            <RelativeLayout
+                android:id="@+id/ln1"
+                android:orientation="vertical"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btPointA"
+                    android:drawablePadding="@dimen/step0"
+                    android:drawableStart="@drawable/ic_my_location_orange_24dp"
+                    android:textAlignment="viewStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:singleLine="true"
+                    android:textAllCaps="false"
+                    android:textColor="@color/mapbox_navigation_route_alternative_color"
+                    android:textSize="13sp" />
+
+                <Button
+                    android:layout_below="@id/btPointA"
+                    android:drawablePadding="@dimen/step0"
+                    android:drawableStart="@drawable/ic_place_orange_24dp"
+                    android:textAlignment="viewStart"
+                    android:id="@+id/btPointB"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="1dp"
+                    android:textSize="13sp"
+                    android:textAllCaps="false"
+                    android:singleLine = "true"
+                    android:background="@color/white"
+                    android:textColor="@color/mapbox_navigation_route_alternative_color"
+                    />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/twresult1"
+                    android:layout_below="@id/btPointB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toStartOf="@id/twresult2"
+                    android:text="00 min"
+                    android:textColor="@color/colorOrange" />
+
+
+
+                <TextView
+                    android:id="@+id/twresult2"
+                    android:layout_below="@id/btPointB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00 km"
+                    android:layout_alignParentEnd="true" />
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/im2"
+                    android:layout_below="@id/twresult1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ph_ng_ti_n" />
+
+
+
+                <RadioGroup
+                    android:layout_marginBottom="@dimen/step0"
+                    android:layout_marginTop="@dimen/step0"
+                    android:layout_below="@id/im2"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/rbtCar"
+                    android:background="@drawable/background_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/bike"
+                        android:background="@drawable/background_toggle_widget_bounded"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/Bike"
+                        android:paddingEnd="@dimen/step2"
+                        android:paddingStart="0dp"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        app:buttonTint="@android:color/transparent" />
+
+                    <RadioButton
+                        android:id="@+id/taxi"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_toggle_widget"
+                        android:gravity="center"
+                        android:text="@string/Taxi"
+                        android:paddingEnd="@dimen/step2"
+                        android:paddingStart="0dp"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        app:buttonTint="@android:color/transparent" />
+                </RadioGroup>
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/im1"
+                    android:layout_below="@id/rbtCar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/s_h_nh_kh_ch" />
+
+
+
+                <RadioGroup
+                    android:layout_marginBottom="@dimen/step0"
+                    android:layout_marginTop="@dimen/step0"
+                    android:layout_below="@id/im1"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/rbtPersonp"
+                    android:background="@drawable/background_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/person1"
+                        android:background="@drawable/background_toggle_widget_bounded"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="1 "
+                        android:paddingEnd="@dimen/step2"
+                        android:paddingStart="0dp"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        app:buttonTint="@android:color/transparent" />
+
+                    <RadioButton
+                        android:id="@+id/person2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_toggle_widget_bounded"
+                        android:gravity="center"
+                        android:text="2 "
+                        android:paddingEnd="@dimen/step2"
+                        android:paddingStart="0dp"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        app:buttonTint="@android:color/transparent" />
+                    <RadioButton
+                        android:id="@+id/person3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_toggle_widget_bounded"
+                        android:gravity="center"
+                        android:text="3 "
+                        android:paddingEnd="@dimen/step2"
+                        android:paddingStart="0dp"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        app:buttonTint="@android:color/transparent" />
+                    <RadioButton
+                        android:id="@+id/person4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_toggle_widget_bounded"
+                        android:gravity="center"
+                        android:text="4 "
+                        android:paddingEnd="@dimen/step2"
+                        android:paddingStart="0dp"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        app:buttonTint="@android:color/transparent" />
+                </RadioGroup>
+
+
+
+
+                <TextView
+                    android:id="@+id/im1sd"
+                    android:layout_below="@id/rbtPersonp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SelectTime" />
+
+
+                <RadioGroup
+                    android:layout_marginBottom="@dimen/step0"
+                    android:layout_marginTop="@dimen/step0"
+                    android:layout_below="@id/im1sd"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/rdbtime"
+                    android:background="@drawable/background_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/booknow"
+                        android:background="@drawable/background_toggle_widget_bounded"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:text="@string/booknow"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        android:paddingTop="@dimen/step0"
+                        app:buttonTint="@android:color/transparent" />
+
+                    <RadioButton
+                        android:id="@+id/booklater"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_toggle_widget"
+                        android:gravity="start"
+                        android:text="@string/booklater"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        android:paddingTop="@dimen/step0"
+                        app:buttonTint="@android:color/transparent" />
+                </RadioGroup>
+
+
+
+
+
+
+
+
+
+
+
+                <TextView
+                    android:id="@+id/tww"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rdbtime"
+                    android:text="@string/chi_ph"
+                    />
+
+
+                <TextView
+                    android:id="@+id/twPrix"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tww"
+                    android:text="0 VND"
+                    android:textColor="@color/colorOrange"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="30sp" />
+
+                <SeekBar
+                    android:id="@+id/sbPrix"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/twPrix"/>
+
+
+                <TextView
+                    android:id="@+id/tww2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sbPrix"
+                    android:text="@string/ph_d_ch_v"
+                    />
+
+
+                <TextView
+                    android:id="@+id/twPrixXN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tww2"
+                    android:text="0 DT"
+                    android:textColor="@color/colorOrange"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/twTB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/twPrixXN"
+                    android:layout_marginTop="5dp"
+                    android:lines="2"
+                    android:text=""
+                    android:textSize="12sp"
+                    />
+
+
+
+
+
+
+
+
+                <RadioGroup
+                    android:layout_marginBottom="@dimen/step0"
+                    android:layout_marginTop="@dimen/step0"
+                    android:layout_below="@id/twTB"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/btValidate"
+                    android:background="@drawable/background_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/cancle"
+                        android:background="@drawable/background_toggle_widget_bounded"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingEnd="@dimen/step2"
+                        android:paddingStart="0dp"
+                        android:text="@string/Cancel1"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        app:buttonTint="@android:color/transparent" />
+
+                    <RadioButton
+                        android:id="@+id/accept"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/background_toggle_widget"
+                        android:gravity="center"
+                        android:paddingEnd="@dimen/step2"
+                        android:paddingStart="0dp"
+                        android:text="@string/Accept"
+                        android:textColor="@drawable/button_text"
+                        android:textSize="@dimen/s14"
+                        app:buttonTint="@android:color/transparent" />
+                </RadioGroup>
+
+
+
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+
+
+    <Button
+        android:id="@+id/validate"
+        android:background="@drawable/button_orange_background"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="55dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="@dimen/step0"
+        android:layout_marginEnd="@dimen/step0"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:text="@string/Adddepart"
+        >
+
+    </Button>
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fabmenu"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="center"
+
+        app:menu_icon="@drawable/ic_dehaze_white_32dp"
+        app:menu_shadowColor="@android:color/transparent"
+        app:menu_colorPressed="@android:color/transparent"
+        app:menu_colorNormal="@android:color/transparent"
+        app:menu_openDirection="up">
+
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_colorPressed="@color/colorPrimaryDark"
+            app:fab_shadowColor="@color/colorPrimaryDark"
+            android:id="@+id/fab4"
+            android:src="@drawable/ic_star_white_32dp"
+            app:fab_size="normal">
+
+        </com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_colorPressed="@color/colorPrimaryDark"
+            app:fab_shadowColor="@color/colorPrimaryDark"
+            android:id="@+id/fab3"
+            android:src="@drawable/ic_work_white_32dp"
+            app:fab_size="normal">
+
+        </com.github.clans.fab.FloatingActionButton>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_colorPressed="@color/colorPrimaryDark"
+            app:fab_shadowColor="@color/colorPrimaryDark"
+            android:id="@+id/fab2"
+            android:src="@drawable/ic_home_white_32dp"
+            app:fab_size="normal">
+
+        </com.github.clans.fab.FloatingActionButton>
+
+
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_colorPressed="@color/colorPrimaryDark"
+            app:fab_shadowColor="@color/colorPrimaryDark"
+            android:id="@+id/fab1"
+            android:src="@drawable/ic_place_white_32dp"
+            app:fab_size="normal">
+
+        </com.github.clans.fab.FloatingActionButton>
+
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+
+</FrameLayout>

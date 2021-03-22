@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_marginTop="@dimen/step"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:src="@drawable/logo"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="@dimen/s24"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="@string/wego_car_sharing_service"
+                android:layout_marginBottom="50dp"
+                />
+
+
+            <EditText
+
+                android:background="@drawable/background_edittext"
+                android:layout_marginRight="@dimen/step"
+                android:layout_marginLeft="@dimen/step"
+                android:layout_marginBottom="@dimen/step"
+                android:inputType="textEmailAddress"
+                android:id="@+id/ipEmail"
+                android:paddingStart="@dimen/step1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:textColor="@color/colorOrange"
+                tools:ignore="RtlSymmetry" />
+
+
+
+            <EditText
+                android:background="@drawable/background_edittext"
+                android:layout_marginRight="@dimen/step"
+                android:layout_marginLeft="@dimen/step"
+                android:layout_marginBottom="@dimen/step"
+                android:inputType="textPassword"
+                android:id="@+id/ipPassword"
+                android:paddingStart="@dimen/step1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/hint_password"
+                android:textColor="@color/colorOrange"
+                tools:ignore="RtlSymmetry" />
+
+
+            <EditText
+                android:background="@drawable/background_edittext"
+                android:layout_marginRight="@dimen/step"
+                android:layout_marginLeft="@dimen/step"
+                android:layout_marginBottom="@dimen/step"
+                android:inputType="textPassword"
+                android:id="@+id/ipPassword1"
+                android:paddingStart="@dimen/step1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="@color/colorOrange"
+                android:hint="@string/hint_password_encord"
+                tools:ignore="RtlSymmetry" />
+
+
+
+            <Button
+                android:textColor="@android:color/white"
+                android:layout_marginRight="@dimen/step"
+                android:layout_marginLeft="@dimen/step"
+                android:layout_marginBottom="@dimen/step"
+                android:textAllCaps="false"
+                android:id="@+id/btLogin"
+                android:textSize="18sp"
+                android:text="@string/Signup"
+                android:background="@drawable/button_red_background"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="@dimen/step"
+                android:id="@+id/btBackLogin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:text="@string/BackLogin"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

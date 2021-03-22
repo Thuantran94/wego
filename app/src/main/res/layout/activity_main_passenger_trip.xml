@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lwtrip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="@dimen/step0"
+        android:layout_marginStart="@dimen/step0"
+        android:layout_marginEnd="@dimen/step0" >
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <RelativeLayout
+    android:visibility="invisible"
+    android:id="@+id/relativeLayoutnotrip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgnotrip"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notrip1"
+        android:layout_marginBottom="@dimen/step2"
+        />
+    <TextView
+        android:layout_below="@id/imgnotrip"
+        android:id="@+id/textnotrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notrip2"
+        android:textSize="@dimen/s14"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+
+
+
+
+
+
+

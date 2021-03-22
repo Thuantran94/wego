@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/step2"
+    android:background="@drawable/background_diag"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:id="@+id/imdiag"
+        android:layout_centerHorizontal="true"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        >
+
+
+    </ImageView>
+
+    <TextView
+        android:layout_below="@id/imdiag"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/step"
+        android:layout_marginStart="@dimen/step"
+        android:layout_marginEnd="@dimen/step"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/s18"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_below="@id/title"
+        android:id="@+id/context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/step"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/s16" />
+
+
+    <LinearLayout
+        android:layout_below="@id/context"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/button_green_background"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:paddingStart="@dimen/step0"
+            android:paddingEnd="@dimen/step0" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

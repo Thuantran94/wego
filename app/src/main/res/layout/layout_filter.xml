@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/step"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bkinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="@string/b_n_k_nh_t"
+        android:textSize="@dimen/s16"
+        android:layout_marginStart="2dp"/>
+
+
+    <TextView
+        android:layout_toEndOf="@id/bkinh"
+        android:id="@+id/kc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="0"
+        android:textSize="@dimen/s16"
+        android:textStyle="bold"
+        android:layout_marginStart="2dp" />
+
+    <TextView
+        android:layout_toEndOf="@id/kc1"
+        android:id="@+id/km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="km"
+        android:textSize="@dimen/s16"
+        android:textStyle="bold"
+        android:layout_marginStart="2dp" />
+
+    <TextView
+        android:id="@+id/den"
+        android:layout_toEndOf="@id/km"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="@string/den"
+        android:textSize="@dimen/s16"
+        android:layout_marginStart="2dp"/>
+
+    <TextView
+        android:layout_toEndOf="@id/den"
+        android:id="@+id/kc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="3"
+        android:textSize="@dimen/s16"
+        android:textStyle="bold"
+        android:layout_marginStart="2dp" />
+
+    <TextView
+        android:id="@+id/km2"
+        android:layout_toEndOf="@id/kc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="km"
+        android:textSize="@dimen/s16"
+        android:textStyle="bold"
+        android:layout_marginStart="2dp" />
+
+
+
+    <TextView
+        android:layout_below="@id/bkinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="@string/kho_ng_c_ch_t_i_thi_u"
+        android:textSize="@dimen/s10"
+        android:layout_marginTop="@dimen/step0" />
+
+
+
+    <TextView
+        android:id="@+id/kctt"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/bkinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="@string/kho_ng_c_ch_t_i_a"
+        android:textSize="@dimen/s10"
+        android:layout_marginTop="@dimen/step0" />
+
+
+    <com.jaygoo.widget.RangeSeekBar
+        android:layout_below="@id/kctt"
+        android:id="@+id/sbkc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rsb_mode="range"
+        app:rsb_progress_color="@color/colorPrimary"
+        app:rsb_min="0"
+        app:rsb_max="3"
+        />
+
+
+    <TextView
+        android:id="@+id/stime"
+        android:layout_below="@id/sbkc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="@string/SelectTime"
+        android:textSize="@dimen/s16"
+        android:layout_marginTop="@dimen/step2"/>
+
+
+
+
+    <LinearLayout
+        android:layout_below="@id/stime"
+        android:id="@+id/lnn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/cb2"
+            android:text="T2"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/cb3"
+            android:text="T3"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cb4"
+            android:text="T4"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cb5"
+            android:text="T5"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cb6"
+            android:text="T6"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@id/lnn2"
+        android:id="@+id/lnn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/cb7"
+            android:text="T7"
+            android:checked="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/cb8"
+            android:text="CN"
+            android:checked="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@id/lnn3"
+        android:id="@+id/lnn4"
+        android:layout_marginTop="@dimen/step2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tu"
+            />
+
+        <TextView
+            android:id="@+id/time1"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:textColor="@color/colorSecondaryText"
+            android:text="0H"
+            />
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/den"
+            />
+
+        <TextView
+            android:id="@+id/time2"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:textColor="@color/colorSecondaryText"
+            android:text="24H"
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_below="@id/lnn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="0h"
+        android:textSize="@dimen/s10"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="2dp"/>
+
+    <TextView
+
+        android:layout_below="@id/lnn4"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/txs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSecondaryText"
+        android:text="24h"
+        android:textSize="@dimen/s10"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="2dp"/>
+
+
+
+    <com.jaygoo.widget.RangeSeekBar
+        android:id="@+id/sbti"
+        android:layout_below="@id/txs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rsb_mode="range"
+        app:rsb_progress_color="@color/colorPrimary"
+        app:rsb_min="0"
+        app:rsb_max="24" />
+
+
+
+    <CheckBox
+        android:id="@+id/hide_trip"
+        android:text="@string/n_c_c_chuy_n_i_c_nh_n"
+        android:layout_below="@id/sbti"
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</RelativeLayout>

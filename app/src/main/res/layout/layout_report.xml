@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:orientation="vertical">
+
+
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_rate"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/step2" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="@string/n_u_b_n_c_v_n_v_ch"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="@dimen/step"
+                android:layout_marginTop="10dp" />
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/step"
+
+                >
+                <RadioButton
+                    android:id="@+id/delay"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="@dimen/s14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tr_h_n_m_kh_ng_b_o_tr_c" />
+
+                <RadioButton
+                    android:id="@+id/destroy"
+                    android:layout_marginTop="@dimen/step0"
+                    android:textColor="@color/colorSecondaryText"
+                    android:textSize="@dimen/s14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/t_ng_hu_chuy_n_i_v_o_ph_t_cu_i"
+                    />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSecondaryText"
+                android:text="@string/l_lo_kh_c"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="@dimen/step"/>
+
+            <EditText
+                android:layout_marginBottom="@dimen/step"
+                android:id="@+id/message"
+                android:hint="@string/nh_p_n_i_dung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:padding="@dimen/step0"
+                android:gravity="top|left"
+                android:background="@drawable/border"
+                android:lines="4"
+                tools:ignore="RtlHardcoded" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

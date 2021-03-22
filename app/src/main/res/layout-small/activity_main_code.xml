@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:background="@color/colorPrimary3Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:layout_gravity="center"
+                    android:id = "@+id/viewpager"
+                    android:layout_marginTop="@dimen/step0"
+                    android:layout_width = "wrap_content"
+                    android:layout_height = "120dp" />
+
+                <TextView
+                    android:id="@+id/xemthem"
+                    android:layout_margin="@dimen/step2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/s16"
+                    android:textAlignment="textEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xem_chi_ti_t"
+                    />
+
+
+                <EditText
+                    android:layout_marginTop="50dp"
+                    android:hint="@string/m_khuy_n_m_i"
+                    android:textAlignment="center"
+                    android:id="@+id/codeprom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/colorSecondaryText"
+                    android:textSize="@dimen/s22"
+                    android:inputType="textCapSentences"
+                    android:textAllCaps="true"
+                    android:background="@drawable/border"
+                    android:maxLines="1"
+                    android:maxLength="6"
+                    android:layout_marginStart="@dimen/step2"
+                    android:layout_marginEnd="@dimen/step2"
+                    android:textColor="@color/white"
+                    android:padding="12dp"/>
+
+
+                <Button
+
+
+                    android:id="@+id/promcode"
+                    android:background="@drawable/button_orange_background"
+                    android:layout_margin="@dimen/step2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="@string/Apply" />
+
+        </LinearLayout>
+
+
+
+</ScrollView>
+
+
+
+

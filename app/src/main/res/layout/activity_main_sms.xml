@@ -1,0 +1,118 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frsms"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_marginStart="0.5dp"
+            android:layout_marginEnd="0.5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
+
+
+
+                <RadioGroup
+                    android:layout_margin="0.5dp"
+                    android:id="@+id/rbtsms"
+                    android:checkedButton="@id/rdsms"
+                    android:background="@drawable/background_toggle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/rdsms"
+                            android:background="@drawable/background_toggle_widget_bounded"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/sms"
+                            android:paddingEnd="@dimen/step2"
+                            android:paddingStart="0dp"
+                            android:textColor="@drawable/button_text"
+                            android:textSize="@dimen/s14"
+                            app:buttonTint="@android:color/transparent" />
+
+                        <RadioButton
+                            android:id="@+id/rdnoti"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/background_toggle_widget"
+                            android:gravity="center"
+                            android:text="@string/noti"
+                            android:paddingEnd="@dimen/step2"
+                            android:paddingStart="0dp"
+                            android:textColor="@drawable/button_text"
+                            android:textSize="@dimen/s14"
+                            app:buttonTint="@android:color/transparent" />
+                </RadioGroup>
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@id/rbtsms"
+                    android:id="@+id/smslw"
+                    android:divider="@null"
+                    android:dividerHeight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nodatasms"
+            android:visibility="invisible"
+            >
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/step2"
+                    />
+                <TextView
+                    android:layout_below="@+id/img"
+                    android:id="@+id/noti"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/s14"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    android:text="@string/nosms"
+
+                    />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+</FrameLayout>
+
+
+
+
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="@dimen/step"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/s24"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="@string/wego_car_sharing_service"
+            android:layout_marginBottom="50dp"
+            />
+
+
+        <EditText
+            android:background="@drawable/background_edittext"
+            android:layout_marginRight="@dimen/step"
+            android:layout_marginLeft="@dimen/step"
+            android:layout_marginBottom="@dimen/step"
+            android:inputType="textEmailAddress"
+            android:id="@+id/ipEmail"
+            android:paddingStart="@dimen/step1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/colorOrange"
+            android:hint="Email"
+            tools:ignore="RtlSymmetry" />
+
+
+
+        <EditText
+            android:background="@drawable/background_edittext"
+            android:layout_marginRight="@dimen/step"
+            android:layout_marginLeft="@dimen/step"
+            android:inputType="textPassword"
+            android:id="@+id/ipPassword"
+            android:paddingStart="@dimen/step1"
+            android:textColor="@color/colorOrange"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/hint_password"
+            tools:ignore="RtlSymmetry" />
+
+
+        <TextView
+            android:padding="@dimen/step"
+            android:layout_marginRight="@dimen/step"
+            android:layout_marginLeft="@dimen/step"
+            android:id="@+id/btDk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textSize="@dimen/s12"
+            android:textColor="@color/colorBlue"
+            android:text="@string/Createnewaccount"
+            android:textAlignment="textEnd"
+            android:textAllCaps="false" />
+
+
+
+        <TextView
+            android:layout_margin="@dimen/step"
+            android:layout_gravity="center"
+            android:id="@+id/twww"
+            android:text="@string/textOr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <EditText
+            android:background="@drawable/background_edittext"
+            android:layout_marginRight="@dimen/step"
+            android:layout_marginLeft="@dimen/step"
+            android:layout_marginBottom="@dimen/step"
+            android:inputType="phone"
+            android:id="@+id/textPhone"
+            android:paddingStart="@dimen/step1"
+            android:maxLength="10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/hint_id"
+            android:textColor="@color/colorPrimary"
+            tools:ignore="RtlSymmetry" />
+
+
+
+        <Button
+            android:textColor="@android:color/white"
+            android:layout_marginRight="@dimen/step"
+            android:layout_marginLeft="@dimen/step"
+            android:layout_marginBottom="@dimen/step2"
+            android:textAllCaps="false"
+            android:id="@+id/btLogin"
+            android:text="@string/Login"
+            android:textSize="@dimen/s18"
+            android:background="@drawable/button_orange_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:text="\u00A9 Wego 2019"
+            android:layout_marginBottom="@dimen/step"
+            />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WaveSwipeRefreshLayout-1.6.aar/7a785a859a99e07e8173ffc79bf4cf20/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WaveSwipeRefreshLayout-1.6.aar/7a785a859a99e07e8173ffc79bf4cf20/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-WaveSwipeRefreshLayout-1.6.aar/7a785a859a99e07e8173ffc79bf4cf20/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.recruit-lifestyle/WaveSwipeRefreshLayout/1.6/9d38628ef0c67c19e03359d0268fa99d494b4362/WaveSwipeRefreshLayout-1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

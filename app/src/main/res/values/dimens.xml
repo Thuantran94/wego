@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">5dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="nav_header_vertical_spacing">5dp</dimen>
+    <dimen name="nav_header_height">150dp</dimen>
+    <dimen name="bodysmsradius">10dp</dimen>
+    <dimen name="mbuttonradius">6dp</dimen>
+    <dimen name="mswitchbutton">2dp</dimen>
+
+    <dimen name="s10">10sp</dimen>
+    <dimen name="s12">12sp</dimen>
+    <dimen name="s14">14sp</dimen>
+    <dimen name="s16">16sp</dimen>
+    <dimen name="s18">18sp</dimen>
+    <dimen name="s20">20sp</dimen>
+    <dimen name="s22">22sp</dimen>
+    <dimen name="s24">24sp</dimen>
+
+
+    <dimen name="left">20dp</dimen>
+    <dimen name="right">20dp</dimen>
+    <dimen name="step">10dp</dimen>
+    <dimen name="step0">5dp</dimen>
+    <dimen name="step1">15dp</dimen>
+    <dimen name="step2">20dp</dimen>
+    <dimen name="top">50dp</dimen>
+
+</resources>

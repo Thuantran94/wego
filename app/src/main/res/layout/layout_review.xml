@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+
+        android:padding="5dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:id="@+id/avatar"
+
+        />
+
+    <TextView
+        android:layout_toEndOf="@id/avatar"
+        android:id="@+id/name"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="240dp"
+        android:textColor="@color/violet"
+        android:text="Ho va ten "
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_toEndOf="@id/name"
+        android:id="@+id/daterw"
+        android:padding="5dp"
+        android:textAlignment="textEnd"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24/08/2019-16:38"
+        android:textSize="12sp" />
+
+
+    <RatingBar
+        android:id="@+id/pdanhgia"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_toEndOf="@id/avatar"
+        android:clickable="false"
+        android:theme="@style/RatingBar"
+        android:numStars="5" />
+
+    <TextView
+        android:layout_toEndOf="@id/avatar"
+        android:layout_below="@id/pdanhgia"
+        android:id="@+id/context"
+        android:layout_marginBottom="3dp"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="Ho danh gia sdsds  sd s dssdsd  sdsd"
+        android:textSize="12sp" />
+
+</RelativeLayout>

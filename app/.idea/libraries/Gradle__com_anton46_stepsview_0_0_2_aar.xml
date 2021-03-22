@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.anton46:stepsview:0.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stepsview-0.0.2.aar/fbdb12b8d8826acf33f393fd76a5a3a2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/stepsview-0.0.2.aar/fbdb12b8d8826acf33f393fd76a5a3a2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anton46/stepsview/0.0.2/dbc3e68356c5194c5e8cccbe1d0105f5d9851310/stepsview-0.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
