@@ -1,2 +1,1 @@
-# wego
-# wego
+# wego application
